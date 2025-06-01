@@ -3,12 +3,12 @@
 ```mermaid
 graph TD
     
-    B1["PRD Documentation"] --> B2["2.1 Generate Front-End Mockups"]    
+    B1["PRD Document Complete"] --> B2["2.1 Generate Front-End Mockups"]    
     subgraph Phase2 ["Phase 2"]
         B2 --> B2_Val{"Human Review Mockups?"}
         B2_Val -->|Needs Iteration| B2
     end
-B2_Val -->|Approved| B3["2.3 AI-Assisted: Convert Mockups to Interactive Prototype"]
+B2_Val -->|All Mockups Approved| B3["2.3 Convert Mockups to Interactive Prototype"]
 Version["v1.3 (June 1, 2025)"]    
 classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
 class Version version
