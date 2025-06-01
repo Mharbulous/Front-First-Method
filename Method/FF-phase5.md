@@ -1,6 +1,6 @@
 ```mermaid
 graph TD
-    E1["5.1 AI-Assisted: Generate Unit/Integration Tests"] --> E2_Val{"5.2 Test Results & Feedback Review: Refinement Needed?"}
+    E1["6.1 AI-Assisted: Generate Unit/Integration Tests"] --> E2_Val{"6.2 Test Results & Feedback Review: Refinement Needed?"}
     
     subgraph Phase5 ["Phase 5: Continuous Iteration, Testing, and Refinement"]
         E2_Val -->|No / All Good| F["Application Complete"]
