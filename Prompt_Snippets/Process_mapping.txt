@@ -1,0 +1,1 @@
+Use diagrams to plan or describe processes and complex alogrithims. To improve syntax of mermaid code, start by generating structured JSON data, and then convert the JSON into mermaid format.
