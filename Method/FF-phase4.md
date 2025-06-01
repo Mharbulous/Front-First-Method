@@ -3,8 +3,8 @@
 graph TD
     
     
-    subgraph Phase1 ["Phase 2"]
-        B3 ["Front-End Definition, Design, and Prototyping"] --> B4_Val{"2.4 Stakeholder/User Validation of Prototype?"}
+    subgraph Phase1["Phase 2"]
+        B3["Front-End Definition, Design, and Prototyping"] --> B4_Val{"2.4 Stakeholder/User Validation of Prototype?"}
         B4_Val -->|Needs Iteration| B3
         B4_Val -->|Approved| C_Spec["Front-End Specs Finalized"]
     end
