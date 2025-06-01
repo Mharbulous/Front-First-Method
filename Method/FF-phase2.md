@@ -1,16 +1,15 @@
 ```mermaid
 graph TD
     
-    
+B1["Front-End Definition, Design, and Prototyping"] --> B2["2.1 Generate Front-End Wireframes"]
+
     subgraph Phase1 ["Phase 2"]
-        B1["Front-End Definition, Design, and Prototyping"] --> B2["2.1 AI-Assisted: Generate Front-End Wireframes"]
         B2 --> B3_Val{"Human Review Wireframes?"}
     end
 
 Version["v1.3 (June 1, 2025)"]
-    
-    classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
-    class Version version
+classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
+class Version version
 ```
 
 
