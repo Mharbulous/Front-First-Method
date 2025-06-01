@@ -2,9 +2,9 @@
 ```mermaid
 graph TD
     
-B1["Front-End Definition, Design, and Prototyping"] --> B2["2.2 AI-Assisted: Generate Front-End Mockups"]
+B1["Wireframe Complete and Validated"] --> B2["2.1 Generate Front-End Mockups"]
 
-    subgraph Phase1 ["Phase 2"]        
+    subgraph Phase3 ["Phase 3"]        
         B2 --> B2_Val{"Human Review Mockups?"}
         B2_Val -->|Needs Iteration| B2        
     end
