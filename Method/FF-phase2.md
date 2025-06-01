@@ -2,9 +2,9 @@
 graph TD
     
     
-    subgraph Phase1 ["Phase 2: Front-End Definition, Design, and Prototyping"]
-                B1 --> B2["2.2 AI-Assisted: Generate Front-End Wireframes"]
-                B2 --> B2_Val{"Human Review Wireframes?"}
+    subgraph Phase1 ["Phase 2"]
+        B1["Front-End Definition, Design, and Prototyping"] --> B2["2.1 AI-Assisted: Generate Front-End Wireframes"]
+        B2 --> B3_Val{"Human Review Wireframes?"}
         
     end
 ```
