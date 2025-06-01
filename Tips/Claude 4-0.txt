@@ -1,0 +1,30 @@
+# Be specific
+
+# Use modifiers
+I.e.
+#### scope modifier
+Include as many relevant features and interactions as possible.
+#### depth modifier
+Go beyond the basics.
+#### completeness modifier
+Create a fully-featured implementation.
+
+# Provide Examples
+## Make sure your examples align with the behavior you want
+## Lead by Example.  
+Prompt the AI in a way that you want the AI to respond.  
+
+# Prompt your AI to use XML tags
+
+# It is better to say what you want, then what you do not want.
+
+# Encourage the AI
+#### I.e.
+Don't hold back.
+Give it your all.
+
+# Clean up breadcrumbs
+When using AI agentically, it will create new files for testing and iteration.  Instruct the AI
+
+If you create any temporary new files, scripts, or helper files for iteration, clean up these files by removing them at the end of the task.
+ 
