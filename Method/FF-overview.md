@@ -9,8 +9,8 @@ Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"
     Phase7 --> Phase8["Application Complete"]
     
     Phase7 -->|Implementation Issues| Phase6
-    Phase7 -->|Interface Issues| Phase5
-    Phase7 -->|Backend Specification Issues| Phase4
+    Phase7 -->|Interface Issues| Phase4
+    Phase7 -->|Backend Specification Issues| Phase5
     Phase7 -->|Visual/UX Issues| Phase3
     Phase7 -->|Fundamental Structure Issues| Phase2
     Phase7 -->|Requirements Issues| Phase1
