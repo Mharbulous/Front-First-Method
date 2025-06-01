@@ -1,12 +1,14 @@
 ```mermaid
 graph TD
-    A[Start] --> Phase1["Phase 1: Front-End Definition, Design & Prototyping"]
-    Phase1 --> Phase2["Phase 2: Deriving Backend Specifications from Validated Front-End"]
-    Phase2 --> Phase3["Phase 3: AI-Assisted Backend Development & Integration"]
-    Phase3 --> Phase4["Phase 4: Continuous Iteration, Testing & Refinement"]
-    Phase4 --> F["Application Complete"]
+    A[Start] --> B1["1.1 Define Core App Features & User Stories"]
     
-    Phase4 -->|Implementation Issues| Phase3
-    Phase4 -->|Backend Specification Issues| Phase2
-    Phase4 -->|Fundamental UI/UX Issues| Phase1
+    subgraph Phase1 ["Phase 1: Front-End Definition, Design, and Prototyping"]
+        B1 --> B2["1.2 AI-Assisted: Generate Front-End Mockups/Wireframes"]
+        B2 --> B2_Val{"Human Review Mockups?"}
+        B2_Val -->|Needs Iteration| B2
+        B2_Val -->|Approved| B3["1.3 AI-Assisted: Convert Mockups to Interactive Prototype"]
+        B3 --> B4_Val{"1.4 Stakeholder/User Validation of Prototype?"}
+        B4_Val -->|Needs Iteration| B3
+        B4_Val -->|Approved| C_Spec["Front-End Specs Finalized"]
+    end
 ```
