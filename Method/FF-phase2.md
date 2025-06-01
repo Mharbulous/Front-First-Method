@@ -4,7 +4,7 @@
 graph TD
     
     B1["PRD Documentation"] --> B2["2.1 Generate Front-End Mockups"]    
-    subgraph Phase2 ["Phase 2"]        
+    subgraph Phase2["Phase 2"]        
         B2 --> B2_Val{"Human Review Mockups?"}
         B2_Val -->|Needs Iteration| B2
     end
