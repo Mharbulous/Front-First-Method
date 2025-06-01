@@ -3,11 +3,16 @@
 graph TD
     
     
-    subgraph Phase1 ["Phase 2: Front-End Definition, Design, and Prototyping"]
-        B3 --> B4_Val{"2.4 Stakeholder/User Validation of Prototype?"}
+    subgraph Phase1 ["Phase 2"]
+        B3 ["Front-End Definition, Design, and Prototyping"] --> B4_Val{"2.4 Stakeholder/User Validation of Prototype?"}
         B4_Val -->|Needs Iteration| B3
         B4_Val -->|Approved| C_Spec["Front-End Specs Finalized"]
     end
+
+    Version["v1.3 (June 1, 2025)"]
+    classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
+    class Version version
+
 ```
 
 Nuances from Full Instructions:
