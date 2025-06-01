@@ -1,0 +1,7 @@
+When creating a implementation plan for an epic, a story, feature or modification, your plan should always proceed in this order:
+1. Start by creating a static front end wireframe using html and inline css only; no functions or dynamic content.
+
+2. Validate the static front end wireframe by asking the user to review and approve the wireframe. 
+3. If the user approves the wireframe, the next task should be move all inline styles into seperate .css files that are organized consistently with existing .css files.
+4. Validate the static front end wireframe by asking the user to review and approve the wireframe. 
+Check that you are on the right track   mockup, before creating any functionsjavascript
