@@ -1,15 +1,21 @@
+
+
 ```mermaid
 graph TD
-    E1["6.1 AI-Assisted: Generate Unit/Integration Tests"] --> E2_Val{"6.2 Test Results & Feedback Review: Refinement Needed?"}
-    
-    subgraph Phase5 ["Phase 5: Continuous Iteration, Testing, and Refinement"]
-        E2_Val -->|No / All Good| F["Application Complete"]
-        E2_Val -->|Yes| E_Refine_Decision{"Determine Refinement Scope"}
-        E_Refine_Decision -->|Implementation Issues| D_Loop_Start["Back to Phase 4"]
-        E_Refine_Decision -->|Backend Specification Issues| C1["Back to Phase 3"]
-        E_Refine_Decision -->|Fundamental UI/UX Issues| B1["Back to Phase 2"]
+    subgraph Phase2 ["Phase 3: Deriving Backend Specifications from Validated Front-End"]
+        C1["3.1 AI-Assisted: Analyze Prototype to Define Data Models/Schemas"]    
+        C1 --> C1_Val{"Human Validate Data Model?"}
+        C1_Val -->|Needs Revision| C1
+        C1_Val -->|Approved| C2["3.2 AI-Assisted: Generate API Endpoint Specs"]
+        C2 --> C2_Val{"Human Validate API Specs?"}
+        C2_Val -->|Needs Revision| C2
+        C2_Val -->|Approved| C3["3.3 AI-Assisted: Generate Initial Backend Structure/Stubs"]
+        C3 --> C3_Val{"Human Validate Backend Structure/Stubs?"}
+        C3_Val -->|Needs Revision| C3
+        C3_Val -->|Approved| D_Spec["Backend Specs Finalized"]
     end
 ```
+
 
 Step 6.1: Generate Backend Boilerplate Code
 Comprehensive Boilerplate Generation:

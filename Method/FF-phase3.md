@@ -1,16 +1,14 @@
+
 ```mermaid
 graph TD
-    subgraph Phase2 ["Phase 3: Deriving Backend Specifications from Validated Front-End"]
-        C1["3.1 AI-Assisted: Analyze Prototype to Define Data Models/Schemas"]    
-        C1 --> C1_Val{"Human Validate Data Model?"}
-        C1_Val -->|Needs Revision| C1
-        C1_Val -->|Approved| C2["3.2 AI-Assisted: Generate API Endpoint Specs"]
-        C2 --> C2_Val{"Human Validate API Specs?"}
-        C2_Val -->|Needs Revision| C2
-        C2_Val -->|Approved| C3["3.3 AI-Assisted: Generate Initial Backend Structure/Stubs"]
-        C3 --> C3_Val{"Human Validate Backend Structure/Stubs?"}
-        C3_Val -->|Needs Revision| C3
-        C3_Val -->|Approved| D_Spec["Backend Specs Finalized"]
+    
+    
+    subgraph Phase1 ["Phase 2: Front-End Definition, Design, and Prototyping"]
+                B1 --> B2["2.2 AI-Assisted: Generate Front-End Mockups"]
+        B2 --> B2_Val{"Human Review Mockups?"}
+        B2_Val -->|Needs Iteration| B2
+        B2_Val -->|Approved| B3["2.3 AI-Assisted: Convert Mockups to Interactive Prototype"]
+        
     end
 ```
 
