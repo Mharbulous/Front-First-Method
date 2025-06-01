@@ -1,4 +1,4 @@
-```mermiad
+```mermaid
 graph TD
     A[Start] --> Phase1["Phase 1: Front-End Definition, Design & Prototyping"]
     Phase1 --> Phase2["Phase 2: Deriving Backend Specifications from Validated Front-End"]
