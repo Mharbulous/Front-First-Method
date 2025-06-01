@@ -1,7 +1,8 @@
 graph TD
-    C1["2.1 AI-Assisted: Analyze Prototype to Define Data Models/Schemas"]
+    
     
     subgraph Phase2 ["Phase 2: Deriving Backend Specifications from Validated Front-End"]
+        C1["2.1 AI-Assisted: Analyze Prototype to Define Data Models/Schemas"]    
         C1 --> C1_Val{"Human Validate Data Model?"}
         C1_Val -->|Needs Revision| C1
         C1_Val -->|Approved| C2["2.2 AI-Assisted: Generate API Endpoint Specs"]
