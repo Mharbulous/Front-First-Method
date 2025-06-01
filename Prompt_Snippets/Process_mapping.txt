@@ -1,1 +1,19 @@
-Use diagrams to plan or describe processes and complex alogrithims. To improve syntax of mermaid code, start by generating structured JSON data.  Convert the JSON into mermaid diagrams to explain and document the process or algorithim.
+Use diagrams to plan or describe processes and complex alogrithims.  When creating complex diagrams, start by creating a JSON object that describes the diagrams elements (nodes, actors, states), their properties (labels, shapes), and their relationships (links, messages, transitions) along with any associated logic (conditions, loops).  For example, for a flowchart, the JSON object might define an array of nodes (each with an ID, label, and shape) and an array of edges (each with a source ID, target ID, and label).
+
+When seeking user validation and approval of a plan, or when explaining complex code to the user, convert the JSON object into a diagram.  
+
+Use the following proceess when creating diagrams including when converting JSON objects into diagrams:
+1. Select an appropriate diagramming tool:
+  a. For simple flowcharts or sequence diagrams Mermaid is the default choice. 
+  b. For detailed UML-based modeling (complex interactions, state transitions, system components), PlantUML offers the necessary expressive power.   
+  c. For software architecture diagrams where aesthetic layout and clarity are paramount, D2 with its ELK layout engine is a strong contender.   
+  d. For abstract graph representations or highly complex dependency mapping, Graphviz provides fundamental capabilities.
+2. Next, determine the exact type of diagram that is most suitable for the process or algorithim (e.g. flowchart, sequence diagram, state diagram, etc...)
+3. Next determine what layout to use (e.g., top-to-bottom, or left-to-right) optimizing for readability.
+4. If you select a diagramming tool other than Mermaid as the most approprate tool, ask the user to verify your choice of diagramming tool, explaining they type of diagram and layout that you intend to create. Explain your reasons for recommending a tool other Mermaid, but ultimately defer to the user before making your final selection of diagramming tool. 
+5. After determining the most suitlable type of diagram and most suitable layout, and diagramming tool, translate the JSON object into a mermaid diagram. 
+6. When translating the JSON object into a diagram:
+  a. Use clear, concise node and relationship labels. 
+  b. Optimize the layout for clarity and minimal crossing lines. 
+  c. Any colors used in the diagram as background or font colors should be selected with consideration given to the contrast and reability of the colors chosen. 
+  d. Ensure all syntax is correct and up-to-date (for example, if Mermaid was selected, then check that the diagram is correct and up-to-date with the latest MermaidJS version. 
