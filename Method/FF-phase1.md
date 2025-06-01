@@ -6,11 +6,13 @@ graph TD
     Phase1_2 --> Phase1_3["Phase 1.3: Map Content Organization"]
     Phase1_3 --> Phase1_4["Phase 1.3: Map Site Navigation"]
     Phase1_4 --> Phase1_5["Phase 1.4: Identify Technical Constraints & Tech Stack"]
-    Phase1_5 --> Phase1_6["Phase 1.5: Draft PRD Document"]
+    end
+
+Phase1_5 --> Phase1_6["Phase 1.5: Draft PRD Document"]
         
-    Version["v1.3 (June 1, 2025)"]    
-    classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
-    class Version version
+Version["v1.3 (June 1, 2025)"]    
+classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
+class Version version
 ```
 
 Key Nuances from Full Instructions:
