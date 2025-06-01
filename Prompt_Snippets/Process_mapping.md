@@ -2,7 +2,7 @@
 
 When planning complex implementations, start by internally creating a JSON object that describes the diagrams elements (nodes, actors, states), their properties (labels, shapes), and their relationships (links, messages, transitions) along with any associated logic (conditions, loops).  For example, for a flowchart, the JSON object might define an array of nodes (each with an ID, label, and shape) and an array of edges (each with a source ID, target ID, and label). 
 
-# When seeking user validation and approval your primary goal is to clearly communicate your proposed implementation plan by using diagrams rather than raw code snippets.
+# When seeking user validation and approval of an implementation plan, your primary goal is to clearly communicate your proposed implementation plan using diagrams rather than raw code snippets.
 
 Use the following step-by-step proces to create explanatory diagrams:
 
