@@ -8,13 +8,10 @@ graph TD
         B2 --> B2_Val{"Human Review Mockups?"}
         B2_Val -->|Needs Iteration| B2
     end
-
 B2_Val -->|Approved| B3["2.3 AI-Assisted: Convert Mockups to Interactive Prototype"]
-
-    Version["v1.3 (June 1, 2025)"]    
-    classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
-    class Version version
-
+Version["v1.3 (June 1, 2025)"]    
+classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
+class Version version
 ```
 
 
