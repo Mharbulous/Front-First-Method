@@ -3,13 +3,18 @@
 graph TD
     
     
-    subgraph Phase1 ["Phase 2: Front-End Definition, Design, and Prototyping"]
-                B1 --> B2["2.2 AI-Assisted: Generate Front-End Mockups"]
+    subgraph Phase1 ["Phase 2"]
+        B1["Front-End Definition, Design, and Prototyping"] --> B2["2.2 AI-Assisted: Generate Front-End Mockups"]
         B2 --> B2_Val{"Human Review Mockups?"}
         B2_Val -->|Needs Iteration| B2
         B2_Val -->|Approved| B3["2.3 AI-Assisted: Convert Mockups to Interactive Prototype"]
         
     end
+
+    Version["v1.3 (June 1, 2025)"]    
+    classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
+    class Version version
+
 ```
 
 Step 3.1: Analyze Validated Front-End for Data Entities, Attributes, and Relationships
