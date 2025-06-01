@@ -8,11 +8,11 @@ Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"
     Phase6 --> Phase7["Phase 7: Continuous Iteration, Testing & Refinement"]
     Phase7 --> Phase8["Application Complete"]
     
-    Phase8 -->|Implementation Issues| Phase6
-    Phase8 -->|Backend Specification Issues| Phase5
-    Phase8 -->|Visual/UX Issues| Phase6
-    Phase8 -->|Fundamental Structure Issues| Phase3
-Phase5 -->|Requirements Issues| Phase2
+    Phase7 -->|Implementation Issues| Phase6
+    Phase7 -->|Backend Specification Issues| Phase5
+    Phase7 -->|Visual/UX Issues| Phase6
+    Phase7 -->|Fundamental Structure Issues| Phase3
+    Phase7 -->|Requirements Issues| Phase2
     
     Version["v1.4 (June 1, 2025)"]
     
