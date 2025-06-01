@@ -6,7 +6,7 @@ Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"
     Phase4 --> Phase5["Phase 5: Deriving Backend Specifications from Validated Front-End"]
     Phase5 --> Phase6["Phase 6: AI-Assisted Backend Development & Integration"]
     Phase6 --> Phase7["Phase 7: Continuous Iteration, Testing & Refinement"]
-    Phase7 --> 8["Application Complete"]
+    Phase7 --> Phase8["Application Complete"]
     
     Phase8 -->|Implementation Issues| Phase6
     Phase8 -->|Backend Specification Issues| Phase5
