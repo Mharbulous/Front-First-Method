@@ -1,3 +1,4 @@
+```mermiad
 graph TD
     A[Start] --> Phase1["Phase 1: Front-End Definition, Design & Prototyping"]
     Phase1 --> Phase2["Phase 2: Deriving Backend Specifications from Validated Front-End"]
@@ -8,3 +9,9 @@ graph TD
     Phase4 -->|Implementation Issues| Phase3
     Phase4 -->|Backend Specification Issues| Phase2
     Phase4 -->|Fundamental UI/UX Issues| Phase1
+    
+    Version["v1.2 (June 1, 2025)"]
+    
+    classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
+    class Version version
+```
