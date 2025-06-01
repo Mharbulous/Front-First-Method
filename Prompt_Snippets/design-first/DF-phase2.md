@@ -2,7 +2,7 @@
 graph TD
     
     
-    subgraph Phase1 ["Phase 1: Front-End Definition, Design, and Prototyping"]
+    subgraph Phase1 ["Phase 2: Front-End Definition, Design, and Prototyping"]
         B1["1.1 Define Core App Features & User Stories"]        
         B1 --> B2["1.2 AI-Assisted: Generate Front-End Mockups/Wireframes"]
         B2 --> B2_Val{"Human Review Mockups?"}
