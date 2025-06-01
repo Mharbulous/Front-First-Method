@@ -1,8 +1,9 @@
 ```mermaid
 graph TD
-    A[] --> B1["1.1 Define Core App Features & User Stories"]
+    
     
     subgraph Phase1 ["Phase 1: Front-End Definition, Design, and Prototyping"]
+        B1["1.1 Define Core App Features & User Stories"]        
         B1 --> B2["1.2 AI-Assisted: Generate Front-End Mockups/Wireframes"]
         B2 --> B2_Val{"Human Review Mockups?"}
         B2_Val -->|Needs Iteration| B2
