@@ -1,6 +1,6 @@
 ```mermaid
 graph TD
-    subgraph Phase1 ["Phase 1"]
+    subgraph Phase1["Phase 1"]
         Phase1_1["Phase 1.1: Identify Product Requirements"] --> Phase1_2["Phase 1.2: Create Journey Maps"]
         Phase1_2 --> Phase1_3["Phase 1.3: Map Content Organization"]
         Phase1_3 --> Phase1_4["Phase 1.3: Map Site Navigation"]
