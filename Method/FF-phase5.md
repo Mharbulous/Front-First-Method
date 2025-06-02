@@ -2,6 +2,9 @@
 
 ```mermaid
 graph TD
+
+Phase4["Phase 4: Prototype - Interactive Testing"] --> Phase5_1
+
     subgraph Phase5["Phase 5: Deriving Backend Specifications from Validated Front-End"]
         Phase5_1["Phase 5.1: AI-Assisted: Analyze Prototype to Define Data Models/Schemas"]    
         Phase5_1 --> Phase5_1_Val{"Human Validate Data Model?"}
@@ -18,8 +21,7 @@ graph TD
         class Version version
     end
 
-    Phase4["Phase 4: Prototype - Interactive Testing"] --> Phase5_1
-    BackendSpecsFinalized --> Phase6["Phase 6: AI-Assisted Backend Development & Integration"]
+BackendSpecsFinalized --> Phase6["Phase 6: AI-Assisted Backend Development & Integration"]
 ```
 
 
