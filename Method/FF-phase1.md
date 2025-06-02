@@ -1,5 +1,6 @@
 ```mermaid
 graph TD
+    
     subgraph Phase1["Phase 1"]
         Phase1_1["Phase 1.1: Identify Product Requirements"] --> Phase1_2["Phase 1.2: Create Journey Maps"]
         Phase1_2 --> Phase1_3["Phase 1.3: Map Content Organization"]
@@ -8,7 +9,8 @@ graph TD
         Phase1_5 --> Phase1_6["Phase 1.5: Draft PRD Document"]
         Version["v1.3 (June 1, 2025)"]
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
-        Version:::version
+        class Version version
+
     end
 
 Phase1_6 --> Phase2["Phase 2: Wireframe - Structure & Layout"]
