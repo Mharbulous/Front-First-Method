@@ -6,11 +6,12 @@ graph TD
         Version["v1.4 (June 1, 2025)"]
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
         class Version version
-        Phase7_1["Phase 7.1: AI-Assisted: Generate Unit/Integration Tests"] --> RefineDecision{"Phase 7.2: Test Results & Feedback Review: Refinement Needed?"} 
-        RefineDecision -->  |All Good|AllGood["All Good"]       
+        Phase7_1["Phase 7.1: AI-Assisted: Generate Unit/Integration Tests"] --> Phase7_2{"Phase 7.2: Test Results & Feedback Review: Refinement Needed?"} 
+        Phase7_2 --> RefineDecision{"Human Assessment"}
+        
     end
 
-AllGood -->|No / All Good| ApplicationComplete["Application Complete"]
+RefineDecision -->  |All Good|AllGood["All Good"]       
 RefineDecision -->|Requirements Issues| Back2Phase1["Back to Phase 1"]
 RefineDecision -->|Fundamental Structure Issues| Back2Phase2["Back to Phase 2"]
 RefineDecision -->|Visual/UX Issues| Back2Phase3["Back to Phase 3"]
