@@ -46,13 +46,15 @@ graph TD
 #### Example of Incorrect Syntax
 ```
 graph TD
-A --> B
+    A --> B
 ```
 #### Example of Correct Syntax
 ```mermaid
 graph TD
     A --> B
 ```
+* (Note:  The backticks in the above examples are not visible if viewing this file in markdown formatted mode.  View in text mode to see the backticks.)
+
 
 ### 3. Missing quotes for node labels with spaces
 **Check for:**   Common oversight; LLMs treat labels as simple strings. Node labels or link text containing spaces or special characters must typically be enclosed in double quotes (").
