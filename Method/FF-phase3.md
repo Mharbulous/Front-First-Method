@@ -4,9 +4,9 @@ graph TD
     
 B1["Wireframe Complete and Validated"] --> B2["3.1 Analyze Validated Front-End"]
 
-    subgraph Phase3 ["Phase 3"]              
+        subgraph Phase3 ["Phase 3"]
         B2 --> B2_Val{"Human Review Mockups?"}
-        B2_Val -->|Needs Iteration| B2        
+        B2_Val -->|Needs Iteration| B2
     end
 
 B2_Val -->|Approved| B3["3.2 Define API Endpoints"]
