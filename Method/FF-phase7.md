@@ -12,11 +12,11 @@ graph TD
         class Version version
     end
 
-RefineDecision -->|Implementation Issues| Phase6["Back to Phase 6"]
-RefineDecision -->|Backend Specification Issues| Phase5["Back to Phase 5"]
-RefineDecision -->|Visual/UX Issues| Phase3["Back to Phase 3"]
-RefineDecision -->|Fundamental Structure Issues| Phase2["Back to Phase 2"]
-RefineDecision -->|Requirements Issues| Phase1["Back to Phase 1"]
+RefineDecision -->|Requirements Issues| Back2Phase1["Back to Phase 1"]
+RefineDecision -->|Fundamental Structure Issues| Back2Phase2["Back to Phase 2"]
+RefineDecision -->|Visual/UX Issues| Back2Phase3["Back to Phase 3"]
+RefineDecision -->|Backend Specification Issues| Back2Phase5["Back to Phase 5"]
+RefineDecision -->|Implementation Issues| Back2Phase6["Back to Phase 6"]
 
 Phase7_2_Val -->|No / All Good| ApplicationComplete["Application Complete"]
 ```
