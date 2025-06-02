@@ -17,17 +17,17 @@ B2_Val -->|All Mockups Approved| B3["2.3 Convert Mockups to Interactive Prototyp
 ```
 
 
-Nuances from Full Instructions:
-Step 1.2: Generate Front-End Mockups/Wireframes (AI-assisted)
-AI-Assisted Generation Process:
+## Nuances from Full Instructions
 
-Propose layouts and common UI components (buttons, forms, tables, navigation menus)
-Focus on functionality-appropriate design suggestions
-Generate initial wireframes based on user flows
-Present visual suggestions for each identified view/screen
+### Step 1.2: Generate Front-End Mockups/Wireframes (AI-assisted)
 
-Quality Standards:
+#### AI-Assisted Generation Process:
+*   Propose layouts and common UI components (buttons, forms, tables, navigation menus)
+*   Focus on functionality-appropriate design suggestions
+*   Generate initial wireframes based on user flows
+*   Present visual suggestions for each identified view/screen
 
-Each mockup must correspond directly to user flows
-UI components must be suitable for described functionality
-Layout must support all identified primary tasks
+#### Quality Standards:
+*   Each mockup must correspond directly to user flows
+*   UI components must be suitable for described functionality
+*   Layout must support all identified primary tasks
