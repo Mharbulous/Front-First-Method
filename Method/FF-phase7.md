@@ -1,5 +1,7 @@
 ```mermaid
 graph TD
+    Phase6["Phase 6: AI-Assisted Backend Development & Integration"] --> Phase7_1
+
     subgraph Phase7 ["Phase 7: Continuous Iteration, Testing & Refinement"]
         Phase7_1["Phase 7.1: AI-Assisted: Generate Unit/Integration Tests"] --> Phase7_2_Val{"Phase 7.2: Test Results & Feedback Review: Refinement Needed?"}
         Phase7_2_Val -->|No / All Good| ApplicationComplete["Application Complete"]

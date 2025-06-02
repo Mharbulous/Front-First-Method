@@ -18,7 +18,8 @@ graph TD
         class Version version
     end
 
-BackendSpecsFinalized --> Phase6["Phase 6: AI-Assisted Backend Development & Integration"]
+    Phase4["Phase 4: Prototype - Interactive Testing"] --> Phase5_1
+    BackendSpecsFinalized --> Phase6["Phase 6: AI-Assisted Backend Development & Integration"]
 ```
 
 
