@@ -2,14 +2,14 @@
 ```mermaid
 graph TD
     
-B1["Mockups"]  --> B2["Prototype Front-end Interface"] 
+B1["Mockups"]  --> B2["Build Interface Prototype"] 
 
     subgraph Phase1["Phase 4"]
-        B2 --> B3_Val{"Human User Validation of Prototype?"}
+        B2 --> B3_Val{"User Approval of Prototype?"}
         B3_Val -->|Needs Iteration| B2
         
     end
-B3_Val -->|Approved| C_Spec["Front-End Specs Finalized"]
+B3_Val -->|Approved| C_Spec["Front-End Finalized"]
 
 Version["v1.3 (June 1, 2025)"]
 classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
