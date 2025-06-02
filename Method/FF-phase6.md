@@ -22,7 +22,6 @@ graph TD
 ReadyForPhase7 --> Phase7["Phase 7: Continuous Iteration, Testing & Refinement"]
 ```
 
-## Nuances from Full Instructions
 
 ### Step 6.1: Generate Backend Boilerplate Code (e.g., controllers, models, basic CRUD)
 *   For an approved module/feature: Generate the boilerplate code for data models/schemas based on Step 5.1.

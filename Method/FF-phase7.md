@@ -21,7 +21,6 @@ RefineDecision -->|Implementation Issues| Back2Phase6["Back to Phase 6"]
 
 ```
 
-## Nuances from Full Instructions
 
 ### Step 7.1: Implement Comprehensive Testing (Unit, Integration, End-to-End for UI-Backend flow)
 *   For all AI-generated backend code, assist in generating unit tests that cover individual functions and logic.

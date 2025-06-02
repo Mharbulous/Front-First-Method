@@ -17,8 +17,6 @@ B2_Val -->|All Wireframes Approved| B3["2.2 Convert Wireframes to Mockups"]
 ```
 
 
-## Nuances from Full Instructions
-
 ### Step 2.1: Generate Front-End Wireframes (AI-assisted)
 
 #### AI-Assisted Generation Process:
