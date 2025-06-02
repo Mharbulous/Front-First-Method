@@ -2,7 +2,7 @@
 ```mermaid
 graph TD
     
-B1["Complete and Validated Wireframe"] --> B2["Create Mockups"]
+B1["Phase 2: Complete and Validated Wireframe"] --> B2["Create Mockups"]
 
         subgraph Phase3["Phase 3"]
         B2 --> B2_Val{"Human Review Mockups?"}

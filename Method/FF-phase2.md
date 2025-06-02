@@ -3,7 +3,7 @@
 ```mermaid
 graph TD
     
-    B1["PRD Document Complete"] --> B2["2.1 Generate Front-End Mockups"]    
+    B1["Phase 1: PRD Document Complete"] --> B2["2.1 Generate Front-End Mockups"]    
     subgraph Phase2["Phase 2"]
         B2 --> B2_Val{"Human Review Mockups?"}
         B2_Val -->|Needs Iteration| B2
