@@ -2,7 +2,7 @@
 ```mermaid
 graph TD
     
-B1["Mockups"]  --> B2["Build Interface Prototype"] 
+B1["Phase 3: Mockups"]  --> B2["Build Interface Prototype"] 
 
     subgraph Phase1["Phase 4"]
         B2 --> B3_Val{"User Approval of Prototype?"}
@@ -12,7 +12,7 @@ B1["Mockups"]  --> B2["Build Interface Prototype"]
         class Version version
         
     end
-B3_Val -->|Approved| C_Spec["Front-End Finalized"]
+B3_Val -->|Approved| C_Spec["Front-End Prototype Finalized"]
 
 
 
