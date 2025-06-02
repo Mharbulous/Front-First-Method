@@ -7,7 +7,7 @@ B1["Phase 3: Mockups"]  --> B2["Build Interface Prototype"]
     subgraph Phase4["Phase 4"]
         B2 --> B3_Val{"User Approval of Prototype?"}
         B3_Val -->|Needs Iteration| B2
-        Version["v1.3 (June 1, 2025)"]
+        Version["v1.4 (June 1, 2025)"]
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
         class Version version
     end
