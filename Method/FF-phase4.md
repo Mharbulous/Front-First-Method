@@ -2,11 +2,12 @@
 ```mermaid
 graph TD
     
-    
-    subgraph Phase1["Phase 2"]
-        B3["Front-End Definition, Design, and Prototyping"] --> B4_Val{"2.4 Stakeholder/User Validation of Prototype?"}
-        B4_Val -->|Needs Iteration| B3
-        B4_Val -->|Approved| C_Spec["Front-End Specs Finalized"]
+B1["Mockups"]  --> B2["Prototype Front-end Interface"] 
+
+    subgraph Phase1["Phase 4"]
+        B2 --> B3_Val{"2.4 Stakeholder/User Validation of Prototype?"}
+        B3_Val -->|Needs Iteration| B4
+        B3_Val -->|Approved| C_Spec["Front-End Specs Finalized"]
     end
 
     Version["v1.3 (June 1, 2025)"]
