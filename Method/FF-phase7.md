@@ -1,6 +1,6 @@
 ```mermaid
 graph TD
-    Phase6["Phase 6: AI-Assisted Backend Development & Integration"] --> Phase7_1
+    Phase6["Phase 6: Backend Development & Integration"] --> Phase7_1
 
     subgraph Phase7 ["Phase 7: Continuous Iteration, Testing & Refinement"]
         Version["v1.4 (June 1, 2025)"]
