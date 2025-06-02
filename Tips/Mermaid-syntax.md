@@ -4,7 +4,7 @@ This file serves as a reference for common Mermaid syntax issues and best practi
 
 1. **Edge labels with spaces and special characters:**  Use -->|Approved| instead for cleaner edge labels.
 2. **Subgraph naming:** Subgraph IDs with spaces need to be handled properly. Use subgraph Phase1 ["Phase 1: Display Name"] format.
-3. **Short descriptions** Very long text in nodes can cause rendering issues. Shorten longer longer descriptions while keeping the meaning clear.
+3. **Short descriptions:** Very long text in nodes can cause rendering issues. Shorten longer longer descriptions while keeping the meaning clear.
 4. **Parentheses vs brackets:** Mixed usage can sometimes cause issues. Standardized to use square brackets [] for process nodes and curly braces {} for decision nodes.
 5.  **Quote handling:** Text with special characters, colons, or long phrases should be wrapped in quotes to prevent parsing errors.
 6.  **Keep it concise:** Aim for clarity and simplicity in your diagrams. Avoid overly complex structures that can be difficult to read and maintain.
@@ -15,7 +15,7 @@ This file serves as a reference for common Mermaid syntax issues and best practi
 
 
 # Toubleshooting Checklist
-##Format for Checklist items
+Format for Checklist items...
 '''
 ### [Number]. [issue name]
 **Check for: **  [describe how to check for this issue]
