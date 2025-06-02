@@ -2,18 +2,23 @@
 
 ```mermaid
 graph TD
-    subgraph Phase2 ["Phase 3: Deriving Backend Specifications from Validated Front-End"]
-        C1["3.1 AI-Assisted: Analyze Prototype to Define Data Models/Schemas"]    
-        C1 --> C1_Val{"Human Validate Data Model?"}
-        C1_Val -->|Needs Revision| C1
-        C1_Val -->|Approved| C2["3.2 AI-Assisted: Generate API Endpoint Specs"]
-        C2 --> C2_Val{"Human Validate API Specs?"}
-        C2_Val -->|Needs Revision| C2
-        C2_Val -->|Approved| C3["3.3 AI-Assisted: Generate Initial Backend Structure/Stubs"]
-        C3 --> C3_Val{"Human Validate Backend Structure/Stubs?"}
-        C3_Val -->|Needs Revision| C3
-        C3_Val -->|Approved| D_Spec["Backend Specs Finalized"]
+    subgraph Phase5["Phase 5: Deriving Backend Specifications from Validated Front-End"]
+        Phase5_1["Phase 5.1: AI-Assisted: Analyze Prototype to Define Data Models/Schemas"]    
+        Phase5_1 --> Phase5_1_Val{"Human Validate Data Model?"}
+        Phase5_1_Val -->|Needs Revision| Phase5_1
+        Phase5_1_Val -->|Approved| Phase5_2["Phase 5.2: AI-Assisted: Generate API Endpoint Specs"]
+        Phase5_2 --> Phase5_2_Val{"Human Validate API Specs?"}
+        Phase5_2_Val -->|Needs Revision| Phase5_2
+        Phase5_2_Val -->|Approved| Phase5_3["Phase 5.3: AI-Assisted: Generate Initial Backend Structure/Stubs"]
+        Phase5_3 --> Phase5_3_Val{"Human Validate Backend Structure/Stubs?"}
+        Phase5_3_Val -->|Needs Revision| Phase5_3
+        Phase5_3_Val -->|Approved| BackendSpecsFinalized["Backend Specs Finalized"]
+        Version["v1.4 (June 1, 2025)"]
+        classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
+        class Version version
     end
+
+BackendSpecsFinalized --> Phase6["Phase 6: AI-Assisted Backend Development & Integration"]
 ```
 
 
