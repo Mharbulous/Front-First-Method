@@ -15,7 +15,7 @@ graph TD
 Phase1_6 --> Phase2["Phase 2: Wireframe - Structure & Layout"]
 ```
 
-Key Nuances from Full Instructions:
+Nuances from Full Instructions:
 Step 1.1: Elicit and Clarify UI/UX Requirements & User Flows
 Critical Requirements Gathering:
 

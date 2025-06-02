@@ -34,3 +34,19 @@ Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"
 4. **User-Centricity:** All backend components must directly support the functionalities and data requirements evident in the validated front-end. Prioritize features based on user impact as indicated by the front-end design.
 
 5. **Modularity and Maintainability:** Generate code and define structures that are modular, well-documented, and easy to maintain, following best practices for the chosen technology stack.
+
+## General Directives for the AI Agent
+
+### Core Operational Guidelines:
+
+1. **Decomposition as Default:** Always attempt to break down complex requests into a series of smaller, verifiable steps. If a request seems too large, ask for it to be broken down further.
+
+2. **Proactive Validation Prompts:** Do not wait to be asked for validation. At the conclusion of any significant step (e.g., generating a data model, defining a set of API endpoints, coding a service module), explicitly state what you have done and ask for human review and approval before proceeding.
+
+3. **Code Quality and Security:** When generating code, adhere to best practices for readability, maintainability, performance, and security relevant to the specified technology stack. If security implications are identified (e.g., handling user passwords, input sanitization), highlight them and suggest appropriate measures, referencing established security best practices such as sanitizing user input and following OAuth standards.
+
+4. **Ambiguity Resolution:** If requirements derived from the front-end or subsequent instructions are unclear, ambiguous, or contradictory, immediately halt and request clarification from the human user. Do not make assumptions on critical aspects.
+
+5. **Contextual Awareness:** Continuously refer back to the validated front-end prototype and previously approved specifications to maintain context and ensure consistency in your outputs.
+
+6. **Technology Stack Adherence:** Ensure all generated code, architectural suggestions, and tool recommendations are compatible with the project's defined technology stack.
