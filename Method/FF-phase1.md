@@ -4,9 +4,9 @@ graph TD
     subgraph Phase1["Phase 1"]
         Phase1_1["Phase 1.1: Identify Product Requirements"] --> Phase1_2["Phase 1.2: Create Journey Maps"]
         Phase1_2 --> Phase1_3["Phase 1.3: Map Content Organization"]
-        Phase1_3 --> Phase1_4["Phase 1.3: Map Site Navigation"]
-        Phase1_4 --> Phase1_5["Phase 1.4: Identify Technical Constraints & Tech Stack"]
-        Phase1_5 --> Phase1_6["Phase 1.5: Draft PRD Document"]
+        Phase1_3 --> Phase1_4["Phase 1.4: Map Site Navigation"]
+        Phase1_4 --> Phase1_5["Phase 1.5: Identify Technical Constraints & Tech Stack"]
+        Phase1_5 --> Phase1_6["Phase 1.6: Draft PRD Document"]
         Version["v1.4 (June 1, 2025)"]
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
         class Version version
