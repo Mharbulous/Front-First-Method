@@ -1,6 +1,6 @@
 This file serves as a reference for common Mermaid syntax issues and best practices when working with Large Language Models (LLMs).
 
-## Best Practices
+# Best Practices
 
 1. **Edge labels with spaces and special characters:**  Use -->|Approved| instead for cleaner edge labels.
 2. **Subgraph naming:** Subgraph IDs with spaces need to be handled properly. Use subgraph Phase1 ["Phase 1: Display Name"] format.
@@ -14,8 +14,21 @@ This file serves as a reference for common Mermaid syntax issues and best practi
 10. **Use the Troubleshooting Checklist:**  When errors are encountered, start by systematically running through the Troubleshooting Checklist.  Never try to debug mermaid diagrams without first running through the Troubleshooting Checklist (see below).
 
 
-## Toubleshooting Checklist
-1. ### Trailing spaces
+# Toubleshooting Checklist
+##Format for Checklist items
+'''
+### [Number]. [issue name]
+**Check for: **  [describe how to check for this issue]
+**Typical Error Message: **  [example error message]  {optional}
+####Example of Incorrect Syntax
+[code snippet]
+####Example of Correct Syntax
+[code snippet]
+'''
+
+
+
+### 1. Trailing spaces
 **Check for:** Trailing spaces on `class [node_id] [class_name]` lines, especially when immediately followed by `end` in a subgraph.
 
 **Typical Error Message:** `Unable to render rich display ... Expecting 'SEMI', 'NEWLINE', 'EOF', 'AMP', 'COLON', 'DOWN', 'DEFAULT', 'NUM', 'COMMA', 'NODE_STRING', 'BRKT', 'MINUS', 'MULT', 'UNICODE_TEXT', got 'SPACE'`
