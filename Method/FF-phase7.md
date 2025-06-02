@@ -7,7 +7,7 @@ graph TD
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
         class Version version
         Phase7_1["Phase 7.1: AI-Assisted: Generate Unit/Integration Tests"] --> Phase7_2{"Phase 7.2: Test Results & Feedback Review: Refinement Needed?"} 
-        Phase7_2 --> |Yes|RefineDecision{"Users reviews and specfies refinement needs"}
+        Phase7_2 --> |Yes|RefineDecision{"User determines scope of refinement"}
         
     end
 
