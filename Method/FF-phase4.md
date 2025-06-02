@@ -5,14 +5,15 @@ graph TD
 B1["Mockups"]  --> B2["Prototype Front-end Interface"] 
 
     subgraph Phase1["Phase 4"]
-        B2 --> B3_Val{"2.4 Stakeholder/User Validation of Prototype?"}
-        B3_Val -->|Needs Iteration| B4
-        B3_Val -->|Approved| C_Spec["Front-End Specs Finalized"]
+        B2 --> B3_Val{"Human User Validation of Prototype?"}
+        B3_Val -->|Needs Iteration| B2
+        
     end
+B3_Val -->|Approved| C_Spec["Front-End Specs Finalized"]
 
-    Version["v1.3 (June 1, 2025)"]
-    classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
-    class Version version
+Version["v1.3 (June 1, 2025)"]
+classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
+class Version version
 
 ```
 
