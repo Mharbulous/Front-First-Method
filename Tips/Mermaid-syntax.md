@@ -2,4 +2,8 @@ This file serves as a reference for common Mermaid syntax errors encountered whe
 
 | Git Hub Error message | Example Cause of Error | Example Correction |
 |---|---|---|
-| Unable to render rich display<br><br>...lass Version version endPhase1_6<br>-----------------------^<br>Expecting 'SEMI', 'NEWLINE', 'EOF', 'AMP', 'COLON', 'DOWN', 'DEFAULT', 'NUM', 'COMMA', 'NODE_STRING', 'BRKT', 'MINUS', 'MULT', 'UNICODE_TEXT', got 'SPACE' | `subgraph Phase1 ["Phase 1"]`<br>`        Phase1_1["Phase 1.1: Identify Product Requirements"] -->         class Version version  `<br>`    end` | `subgraph Phase1["Phase 1"]`<br>`        Phase1_1["Phase 1.1: Identify Product Requirements"] -->         class Version version  `<br>`    end` |
+| Unable to render rich display<br><br>...lass Version version endPhase1_6<br>-----------------------^<br>Expecting 'SEMI', 'NEWLINE', 'EOF', 'AMP', 'COLON', 'DOWN', 'DEFAULT', 'NUM', 'COMMA', 'NODE_STRING', 'BRKT', 'MINUS', 'MULT', 'UNICODE_TEXT', got 'SPACE' | `class Version version  ` (with trailing spaces, immediately followed by `end` in subgraph) | `class Version version` (without trailing spaces) |
+
+## Troubleshooting Checklist
+
+- [ ] Check for trailing spaces on `class [node_id] [class_name]` lines, especially when immediately followed by `end` in a subgraph.
