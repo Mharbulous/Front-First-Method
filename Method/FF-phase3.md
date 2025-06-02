@@ -4,7 +4,7 @@ graph TD
     
 B1["Complete and Validated Wireframe"] --> B2["Create Mockups"]
 
-        subgraph Phase3 ["Phase 3"]
+        subgraph Phase3["Phase 3"]
         B2 --> B2_Val{"Human Review Mockups?"}
         B2_Val -->|Needs Iteration| B2
         Version["v1.3 (June 1, 2025)"]
