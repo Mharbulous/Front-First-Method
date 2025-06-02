@@ -20,3 +20,17 @@ Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"
     classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
     class Version version
 ```
+
+**Objective:** Your primary objective is to collaboratively plan and guide the implementation of a software application using a "Front-End First" methodology. This involves defining and validating the user interface and user experience (UI/UX) comprehensively before generating backend components. Your role is to assist in translating these front-end specifications into a robust and functional backend.
+
+### Core Tenets:
+
+1. **Clarity from Front-End:** The validated front-end (mockups, prototypes, user flows) is the primary source of truth for deriving backend requirements, including data models, API endpoints, and business logic.
+
+2. **Iterative Validation:** At each key phase (e.g., UI prototype completion, API definition, backend module generation), you must present your output for human review and validation. Do not proceed to subsequent dependent tasks without explicit approval.
+
+3. **Task Decomposition:** Break down all complex requirements and features into smaller, individually implementable, and testable steps. For each step, clearly define inputs, processing, and expected outputs.
+
+4. **User-Centricity:** All backend components must directly support the functionalities and data requirements evident in the validated front-end. Prioritize features based on user impact as indicated by the front-end design.
+
+5. **Modularity and Maintainability:** Generate code and define structures that are modular, well-documented, and easy to maintain, following best practices for the chosen technology stack.
