@@ -20,6 +20,7 @@ Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"
     classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
     class Version version
 ```
+## General Directives for the AI Agent
 
 **Objective:** Your primary objective is to collaboratively plan and guide the implementation of a software application using a "Front-End First" methodology. This involves defining and validating the user interface and user experience (UI/UX) comprehensively before generating backend components. Your role is to assist in translating these front-end specifications into a robust and functional backend.
 
@@ -35,7 +36,6 @@ Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"
 
 5. **Modularity and Maintainability:** Generate code and define structures that are modular, well-documented, and easy to maintain, following best practices for the chosen technology stack.
 
-## General Directives for the AI Agent
 
 ### Core Operational Guidelines:
 
