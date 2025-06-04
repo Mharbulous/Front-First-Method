@@ -6,14 +6,19 @@ graph TD
     subgraph Phase3["Phase 3"]
         B2 --> B2_Val{"Human Review Mockups?"}
         
-        B2_Val -->|Requested changes inconsistent with PRD| B2_User_Choice{"User Choice: Update PRD or Abandon Changes?"}
-        B2_Val -->|Requested changes consistent with PRD| B2
+        B2_Val -->|Requested changes|Consistent_Val{"Consistent with PRD?"}
+        
+        
+        Consistent_Val -->|No| B2_User_Choice{"User Choice: Update PRD or Abandon Changes?"}
+        Consistent_Val -->|Yes| Iterate
+        Iterate --> B2
+
 
         B2_User_Choice -->|Update PRD| B2_PRD_Update["Create Blackline of PRD"]
         B2_User_Choice -->|Abandon Changes| B2_Val
-        B2_PRD_Update --> B2_PRD_Approved{"PRD Blackline Approved?"}
-        B2_PRD_Approved -->|No| B2_User_Choice
         B2_PRD_Approved -->|Yes| B3["Update PRD"]
+        B2_PRD_Update --> B2_PRD_Approved{"PRD Blackline Approved?"}
+        B2_PRD_Approved -->|No| B2_User_Choice        
         B3 --> B2_Val
 
         Version["v1.8 (June 4, 2025)"]
