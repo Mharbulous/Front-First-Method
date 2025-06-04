@@ -12,8 +12,7 @@ graph TD
     Phase7 -->|Fundamental Structure/Layout Issues| Phase2
     Phase7 -->|Revise/Clarify Functional Mockup| Phase3
     Phase7 -->|Backend Specification Issues| Phase4
-    Phase7 -->|Backend Implementation Issues| Phase5        
-    Phase7 -->|Aesthetic/Styling Issues| Phase7
+    Phase7 -->|Backend Implementation Issues| Phase5            
     
     
 
