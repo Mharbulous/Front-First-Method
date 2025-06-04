@@ -16,9 +16,7 @@ B1["Phase 2: Validated Wireframe"] --> B2["Build Functionality Mockup"]
 B2_Val -->|Approved| B3["Phase 4: Derive Backend Specifications"]
 
 ```
-To build a functionality mockup take the validated wireframe and populate it with content that demonstrates the desired functionality.
-
-
+To build a functionality mockup take the validated wireframe and populate it with content in ways that demonstrate the desired functionality and behavior in a light weight way.  This is the clearest example of applying the "Code as Context" tenent of the Front First Method.
 
 
 ### Step 3.1: Build Functionality Mockup (Static HTML/CSS/JS or using UI library components with mock data)
