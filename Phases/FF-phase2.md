@@ -7,11 +7,11 @@ graph TD
     subgraph Phase2["Phase 2: Wireframe - Structure & Layout"]
         B2 --> B2_Val{"Human Review Wireframes?"}
         B2_Val -->|Needs Iteration| B2
-        Version["v1.4 (June 1, 2025)"]
+        Version["v1.7 (June 3, 2025)"]
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
         class Version version
     end
-B2_Val -->|All Wireframes Approved| B3["2.2 Convert Wireframes to Mockups"]
+B2_Val -->|All Wireframes Approved| B3["Phase 3"]
 
 
 ```
