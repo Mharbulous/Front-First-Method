@@ -21,7 +21,7 @@ graph TD
         class Version version
     end
 
-    B2_Val -->|Approved| B3["Phase 4: Derive Backend Specifications"]
+    B2_Val -->|Approved| Phase4["Phase 4: Derive Backend Specifications"]
 ```
 To build a functionality mockup take the validated wireframe and populate it with content in ways that demonstrate the desired functionality and behavior in a light weight way.  This is the clearest example of applying the "Code as Context" tenent of the Front First Method.
 
