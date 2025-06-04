@@ -1,7 +1,8 @@
 ```mermaid
 graph TD
 
-Phase4["Phase 4: Prototype - Interactive Testing"] --> Phase5_1["Derive Backend Specifications from Validated Functionality Mockup"]
+Phase3["Phase 3: Functionality Mockup"] --> Phase5_1["Build Backend"]
+Phase4["Phase 4: Approved Backend Specifications"] --> Phase5_1
 
     subgraph Phase5["Phase 5"]
         Phase5_1["Phase 5.1: Analyze Prototype to Define Data Models/Schemas"]    
@@ -14,7 +15,7 @@ Phase4["Phase 4: Prototype - Interactive Testing"] --> Phase5_1["Derive Backend 
         Phase5_3 --> Phase5_3_Val{"Human Validate Backend Structure/Stubs?"}
         Phase5_3_Val -->|Iterate| Phase5_3
         Phase5_3_Val -->|Approved| BackendSpecsFinalized["Backend Specs Finalized"]
-        Version["v1.4 (June 1, 2025)"]
+        Version["v1.7 (June 3, 2025)"]
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
         class Version version
     end

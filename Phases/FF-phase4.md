@@ -5,7 +5,7 @@ graph TD
 B1["Phase 3: Functionality Mockup"]  --> B2["Derive Backend Specifications"] 
 
     subgraph Phase4["Phase 4"]
-        B2 --> B3_Val{"User Approval of Prototype?"}
+        B2 --> B3_Val{"User Approval of Specifications?"}
         B3_Val -->|Needs Iteration| B2
         
         Version["v1.4 (June 1, 2025)"]

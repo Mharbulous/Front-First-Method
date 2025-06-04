@@ -2,10 +2,10 @@
 graph TD
     Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"]
     Phase2 --> Phase3["Phase 3: Functionality Mockup"]
-    Phase3 --> Phase4["Phase 4: Derive Backend Specifications from Functional Mockup"]
+    Phase3 --> Phase4["Phase 4: Derive Backend Specifications from Functionality Mockup"]
     Phase4 --> Phase5["Phase 5: Build Backend-Aware Prototype"]
     Phase5 --> Phase6["Phase 6: Prototype Testing & Validation"]
-    Phase6 --> Phase7["Phase 7: Styling, Final Testing & Refinement"]
+    Phase6 --> Phase7["Phase 7: Styling, Testing & Refinement"]
     Phase7 --> Phase8["Phase 8: Alpha"]
     
     Phase7 -->|Revise/Clarify Requirements| Phase1
