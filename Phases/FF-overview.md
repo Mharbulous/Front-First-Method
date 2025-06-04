@@ -6,8 +6,7 @@ graph TD
     Phase5 --> Phase6["Phase 6: Backend-Aware Prototype Testing & Validation"]
     Phase6 --> Phase7["Phase 7: Full Styling, Final Testing & Refinement"]
     Phase7 --> Phase8["Phase 8: Application Complete"]
-
-    %% Feedback Loops from Phase 7 (Final Testing & Refinement)
+    
     Phase7 -->|Backend Implementation Issues| Phase5
     Phase7 -->|Backend Specification Issues| Phase4
     Phase7 -->|Issues with Backend-Aware Prototype Functionality/UX| Phase6
