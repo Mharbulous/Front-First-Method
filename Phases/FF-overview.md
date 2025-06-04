@@ -1,22 +1,22 @@
-```mermaid
 graph TD
-    Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"]
-    Phase2 --> Phase3["Phase 3: Mockup - Visual Design"]
-    Phase3 --> Phase4["Phase 4: Prototype - Interactive Testing (Yields Validated Prototype)"]
-    Phase4 --> Phase5["Phase 5: Deriving Backend Specifications (from Validated Prototype, informed by Functional View)"]
-    Phase5 --> Phase6["Phase 6: AI Backend Dev & Integration (Builds Backend-Aware Prototype)"]
-    Phase6 --> Phase7["Phase 7: Continuous Iteration, Testing & Refinement"]
-    Phase7 --> Phase8["Application Complete"]
+    A_P1["Phase 1: Planning"] --> B_P2["Phase 2: Wireframe - Structure & Layout"]
+    B_P2 --> C_P3R["Phase 3 (Refined): Functional Mockup"]
+    C_P3R --> D_P5S["Phase 5: Derive Backend Specifications (from Functional Mockup)"]
+    D_P5S --> E_P6B["Phase 6: AI Backend Dev & Integration (Builds Backend-Aware Prototype)"]
+    E_P6B --> F_P4T["Phase 4 (Shifted): Backend-Aware Prototype Testing & Validation"]
+    F_P4T --> G_P7F["Phase 7: Full Styling, Final Testing & Refinement"]
+    G_P7F --> H_P8C["Application Complete"]
 
-    Phase7 -->|Implementation Issues| Phase6
-    Phase7 -->|Interface Issues| Phase4
-    Phase7 -->|Backend Specification Issues| Phase5
-    Phase7 -->|Visual/UX Issues| Phase3
-    Phase7 -->|Fundamental Structure Issues| Phase2
-    Phase7 -->|Requirements Issues| Phase1
+    %% Feedback Loops from Phase 7 (Final Testing & Refinement)
+    G_P7F -->|Backend Implementation Issues| E_P6B
+    G_P7F -->|Backend Specification Issues| D_P5S
+    G_P7F -->|Issues with Backend-Aware Prototype Functionality/UX| F_P4T
+    G_P7F -->|Issues with Functional Mockup (Core Functionality)| C_P3R
+    G_P7F -->|Aesthetic/Styling Issues| G_P7F %% Iterating on styling within Phase 7
+    G_P7F -->|Fundamental Structure/Layout Issues| B_P2
+    G_P7F -->|Requirements Issues| A_P1
 
     Version["v1.5 (June 3, 2025)"]
-
     classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
     class Version version
 ```
