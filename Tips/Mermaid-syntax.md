@@ -182,7 +182,22 @@ graph TD
     D --> E;
 ```
 
-### 11. Version incompatibility (e.g., C4 diagrams)
+### 11. Parentheses in Edge Labels
+**Check for:** Parentheses `()` in edge labels. Mermaid does not support parentheses in edge labels.
+
+**Typical Error Message:** `Expecting 'SQE', 'DOUBLECIRCLEEND', 'PE', '-)', 'STADIUMEND', 'SUBROUTINEEND', 'PIPE', 'CYLINDEREND', 'DIAMOND_STOP', 'TAGEND', 'TRAPEND', 'INVTRAPEND', 'UNICODE_TEXT', 'TEXT', 'TAGSTART', got 'PS'.`
+#### Example of Incorrect Syntax
+```mermaid
+graph TD
+    Phase7 -->|Issues with Functional Mockup (Core Functions)| Phase3
+```
+#### Example of Correct Syntax
+```mermaid
+graph TD
+    Phase7 -->|Issues with Functional Mockup Core Functions| Phase3
+```
+
+### 12. Version incompatibility (e.g., C4 diagrams)
 **Check for:**   LLM knowledge is static; unaware of library updates unless specifically trained/prompted. Syntax might be correct for the latest Mermaid.js, but an older version of the Mermaid library bundled in a plugin or tool could cause errors.
 #### Example of Incorrect Syntax
 ```

@@ -8,13 +8,14 @@ graph TD
     Phase6 --> Phase7["Phase 7: Full Styling, Final Testing & Refinement"]
     Phase7 --> Phase8["Phase 8: Application Complete"]
     
-    Phase7 -->|Backend Implementation Issues| Phase5
-    Phase7 -->|Backend Specification Issues| Phase4
-    Phase7 -->|Issues with Backend-Aware Prototype Functionality/UX| Phase6
-    Phase7 -->|Issues with Functional Mockup Core Functionality| Phase3
-    Phase7 -->|Aesthetic/Styling Issues| Phase7
+    Phase7 -->|Revise/Clarify Requirements| Phase1
     Phase7 -->|Fundamental Structure/Layout Issues| Phase2
-    Phase7 -->|Requirements Issues| Phase1
+    Phase7 -->|Revise/Clarify Functional Mockup| Phase3
+    Phase7 -->|Backend Specification Issues| Phase4
+    Phase7 -->|Backend Implementation Issues| Phase5        
+    Phase7 -->|Aesthetic/Styling Issues| Phase7
+    
+    
 
     VersionInfo["v1.7 (Conceptual - Renumbered Reordered Flow)"]
     classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px;
