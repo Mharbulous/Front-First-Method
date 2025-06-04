@@ -19,18 +19,28 @@ B3_Val -->|Approved| Phase5["Phase 5: Prototype"]
 
 ```
 
+### Step 4.1: Analyze Functionality Mockup for Data Entities, Attributes, and Relationships
+*   Systematically examine every element and interaction in the approved functionality mockup.
+*   Identify all distinct data entities implied by the UI (e.g., 'User', 'Product', 'Order', 'Comment').
+*   For each entity, list its attributes (e.g., for 'User': username, email, password_hash, creation_date) based on form fields, displayed data, etc.
+*   Determine relationships between entities (e.g., a 'User' can have many 'Orders'; an 'Order' contains many 'Products'). Specify cardinality (one-to-one, one-to-many, many-to-many).
+*   Present this proposed data model (entities, attributes, relationships) for human validation.
+
+### Step 4.2: Define API Endpoints, Request/Response Payloads based on UI interactions
+*   For each user interaction in the front-end that requires data from or sends data to a server (e.g., form submissions, data loading for a table, button clicks triggering actions), define a corresponding API endpoint.
+*   Specify:
+    *   **HTTP method** (GET, POST, PUT, DELETE)
+    *   **URL path**
+    *   **Expected request payload** (data structure and types)
+    *   **Expected response payload** (data structure and types)
+    This aligns with AI's capability to assist in generating API requests and hooks.
+*   Ensure API design is RESTful or follows specified architectural patterns.
+*   Present the complete list of API endpoints and their specifications for human validation.
+
+### Step 4.3: Outline Backend Modules, Services, and Core Logic Stubs
+*   Based on the data model and API endpoints, propose a modular structure for the backend (e.g., user_service, product_service, order_service).
+*   For each module/service, list the core functions/methods required to handle the defined API endpoints and business logic (e.g., createUser(userData), getProductById(productId), placeOrder(orderDetails)).
+*   Write initial stubs or pseudo-code for this core logic, clearly indicating dependencies on data models and other services.
+*   Present this backend structural outline and logic stubs for human validation.
 
 
-### Step 4.1: Develop Interactive Front-End Prototypes (Static HTML/CSS/JS or using UI library components with mock data)
-*   Translate the approved wireframes/mockups into interactive front-end prototypes. This can be static HTML, CSS, and JavaScript, or utilize components from a specified UI library/framework.
-*   Focus on accurately representing the UI elements, layout, navigation, and basic interactivity (e.g., button clicks leading to other views, form field interactions). Use placeholder/mock data to simulate dynamic content, reflecting practices where developers use previously prepared static data for initial UI work.
-*   Ensure the prototype is responsive and adheres to any specified design guidelines.
-
-### Step 4.2: Stakeholder/User Validation Loop for Front-End Prototype
-*   Present the complete interactive front-end prototype for thorough review by the human user/stakeholders.
-*   Prompt for specific feedback on:
-    *   Usability
-    *   Completeness of features
-    *   Correctness of user flows
-    *   Overall design
-*   Document all requested changes. Iterate on Step 1.3 and this step until the front-end prototype is fully approved and considered stable. **This validated prototype is now the primary specification.**
