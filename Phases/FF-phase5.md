@@ -2,7 +2,8 @@
 graph TD
 
 Phase3["Phase 3: Functionality Mockup"] --> Phase5_1["Build Backend"]
-Phase4["Phase 4: Approved Backend Specifications"] --> Phase5_1
+Phase3["Phase 3: Functionality Mockup"] --> Phase4["Phase 4: Approved Backend Specifications"]
+Phase4 --> Phase5_1
 
     subgraph Phase5["Phase 5"]
         Phase5_1["Phase 5.1: Analyze Prototype to Define Data Models/Schemas"]    
