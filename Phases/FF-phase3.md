@@ -6,12 +6,12 @@ graph TD
     subgraph Phase3["Phase 3"]
         B2 --> B2_Val{"Human Review Mockups?"}
         
-        B2_Val -->|Requested changes|Consistent_Val{"Consistent with PRD?"}
-        
+      
         
         Consistent_Val -->|No| B2_User_Choice{"User Choice: Update PRD or Abandon Changes?"}
         Consistent_Val -->|Yes; Iterate|B2
 
+        B2_Val -->|Requested changes|Consistent_Val{"Consistent with PRD?"}
 
         B2_User_Choice -->|Update PRD| B2_PRD_Update["Create Blackline of PRD"]
         B2_User_Choice -->|Abandon Changes| B2_Val
