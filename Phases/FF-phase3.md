@@ -5,7 +5,7 @@ graph TD
 
     subgraph Phase3["Phase 3"]
         B2 --> B2_Val{"Human Review Mockups?"}
-        B2_Val -->|Approved (No Changes)| B3
+        B2_Val -->|Approved| B3
         B2_Val -->|Requested changes inconsistent with PRD| B2_User_Choice{"User Choice: Update PRD or Abandon Changes?"}
         B2_Val -->|Requested changes consistent with PRD| B2
 
