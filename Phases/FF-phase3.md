@@ -13,8 +13,7 @@ B1["Phase 2: Validated Wireframe"] --> B2["Create Functionality Mockup"]
         
     end
 
-B2_Val -->|Approved| B3["Phase 4"]
-
+B2_Val -->|Approved| B3["Phase 4: Derive Backend Specifications"]
 
 ```
 To build a functionality mockup take the validated wireframe and populate it with content that demonstrates the desired functionality.
