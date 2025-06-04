@@ -19,7 +19,7 @@ Phase4 --> Phase5_1
         class Version version
     end
  
-Phase5_1 -.->|get context|Phase3["Phase 3: Functionality Mockup"]
+Phase5_1 <-.-|get context from|Phase3["Phase 3: Functionality Mockup"]
 
 BackendSpecsFinalized --> Phase6["Phase 6: Backend Development"]
 ```
