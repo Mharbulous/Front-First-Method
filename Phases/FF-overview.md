@@ -6,7 +6,7 @@ graph TD
     Phase4 --> Phase5["Phase 5: AI Backend Dev & Integration Builds Backend-Aware Prototype"]
     Phase5 --> Phase6["Phase 6: Backend-Aware Prototype Testing & Validation"]
     Phase6 --> Phase7["Phase 7: Full Styling, Final Testing & Refinement"]
-    Phase7 --> Phase8["Phase 8: Alpha Complete"]
+    Phase7 --> Phase8["Phase 8: Alpha"]
     
     Phase7 -->|Revise/Clarify Requirements| Phase1
     Phase7 -->|Fundamental Structure/Layout Issues| Phase2
