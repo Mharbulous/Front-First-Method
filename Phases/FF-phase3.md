@@ -2,18 +2,24 @@
 ```mermaid
 graph TD
     B1["Phase 2: Validated Wireframe"] --> B2["Build Functionality Mockup"]
+    B2_Val -->|Approved| Phase4["Phase 4: Derive Backend Specifications"]
 
     subgraph Phase3["Phase 3"]
         B2 --> B2_Val{"Human Review Mockups?"}
+
         B2_Val -->|Requested changes|Consistent_Val{"Consistent with PRD?"}
+    
         Consistent_Val -->|No| B2_User_Choice{"User Choice: Update PRD or Abandon Changes?"}
         Consistent_Val -->|Yes; Iterate|B2
 
         B2_User_Choice -->|Update PRD| B2_PRD_Update["Create Blackline of PRD"]
         B2_User_Choice -->|Abandon Changes| B2_Val
-        B2_PRD_Approved -->|Yes| B3["Update PRD"]
+    
+        B2_PRD_Approved -->|Yes| B3["Update PRD"]    
+        B2_PRD_Approved -->|No| B2_User_Choice   
+
         B2_PRD_Update --> B2_PRD_Approved{"PRD Blackline Approved?"}
-        B2_PRD_Approved -->|No| B2_User_Choice        
+        
         B3 --> B2_Val
 
         Version["v1.8 (June 4, 2025)"]
@@ -21,7 +27,7 @@ graph TD
         class Version version
     end
 
-    B2_Val -->|Approved| Phase4["Phase 4: Derive Backend Specifications"]
+
 ```
 To build a functionality mockup take the validated wireframe and populate it with content in ways that demonstrate the desired functionality and behavior in a light weight way.  This is the clearest example of applying the "Code as Context" tenent of the Front First Method.
 
