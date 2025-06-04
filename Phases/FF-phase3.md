@@ -9,11 +9,12 @@ graph TD
         B2_Val -->|Requested changes inconsistent with PRD| B2_User_Choice{"User Choice: Update PRD or Abandon Changes?"}
         B2_Val -->|Requested changes consistent with PRD| B2
 
-        B2_User_Choice -->|Update PRD| B2_PRD_Update["Update PRD"]
+        B2_User_Choice -->|Update PRD| B2_PRD_Update["Create Blackline of PRD"]
         B2_User_Choice -->|Abandon Changes| B2_Val
-        B2_PRD_Update --> B2_PRD_Approved{"PRD Changes Approved?"}
+        B2_PRD_Update --> B2_PRD_Approved{"PRD Blackline Approved?"}
         B2_PRD_Approved -->|No| B2_User_Choice
-        B2_PRD_Approved -->|Yes| B2_Val
+        B2_PRD_Approved -->|Yes| B3["Update PRD"]
+        B3 --> B2_Val
 
         Version["v1.8 (June 4, 2025)"]
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
