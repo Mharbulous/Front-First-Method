@@ -10,8 +10,7 @@ graph TD
         
         
         Consistent_Val -->|No| B2_User_Choice{"User Choice: Update PRD or Abandon Changes?"}
-        Consistent_Val -->|Yes| Iterate
-        Iterate --> B2
+        Consistent_Val -->|Yes; Iterate|B2
 
 
         B2_User_Choice -->|Update PRD| B2_PRD_Update["Create Blackline of PRD"]
