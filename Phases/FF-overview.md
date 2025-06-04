@@ -1,23 +1,24 @@
 graph TD
-Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"]
-    Phase2 --> Phase3["Phase 3: Mockup - Visual Design"]
-    Phase3 --> Phase4["Phase 4: Prototype - Interactive Testing"]
-    Phase4 --> Phase5["Phase 5: Deriving Backend Specifications from Validated Front-End"]
-    Phase5 --> Phase6["Phase 6: AI-Assisted Backend Development & Integration"]
-    Phase6 --> Phase7["Phase 7: Continuous Iteration, Testing & Refinement"]
-    Phase7 --> Phase8["Application Complete"]
-    
-    Phase7 -->|Implementation Issues| Phase6
-    Phase7 -->|Interface Issues| Phase4
-    Phase7 -->|Backend Specification Issues| Phase5
-    Phase7 -->|Visual/UX Issues| Phase3
-    Phase7 -->|Fundamental Structure Issues| Phase2
+    Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"]
+    Phase2 --> Phase3["Phase 3: Functional Mockup"]
+    Phase3 --> Phase4["Phase 4: Derive Backend Specifications (from Functional Mockup)"]
+    Phase4 --> Phase5["Phase 5: AI Backend Dev & Integration (Builds Backend-Aware Prototype)"]
+    Phase5 --> Phase6["Phase 6: Backend-Aware Prototype Testing & Validation"]
+    Phase6 --> Phase7["Phase 7: Full Styling, Final Testing & Refinement"]
+    Phase7 --> Phase8["Phase 8: Application Complete"]
+
+    %% Feedback Loops from Phase 7 (Final Testing & Refinement)
+    Phase7 -->|Backend Implementation Issues| Phase5
+    Phase7 -->|Backend Specification Issues| Phase4
+    Phase7 -->|Issues with Backend-Aware Prototype Functionality/UX| Phase6
+    Phase7 -->|Issues with Functional Mockup (Core Functionality)| Phase3
+    Phase7 -->|Aesthetic/Styling Issues| Phase7
+    Phase7 -->|Fundamental Structure/Layout Issues| Phase2
     Phase7 -->|Requirements Issues| Phase1
-    
-    Version["v1.4 (June 1, 2025)"]
-    
-    classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
-    class Version version
+
+    VersionInfo["v1.7 (Conceptual - Renumbered Reordered Flow)"]
+    classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px;
+    class VersionInfo version
 ```
 ## General Directives
 
