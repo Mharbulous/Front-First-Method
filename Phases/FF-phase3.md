@@ -1,20 +1,26 @@
 
 ```mermaid
 graph TD
-    
-B1["Phase 2: Validated Wireframe"] --> B2["Build Functionality Mockup"]
+    B1["Phase 2: Validated Wireframe"] --> B2["Build Functionality Mockup"]
 
-        subgraph Phase3["Phase 3"]
+    subgraph Phase3["Phase 3"]
         B2 --> B2_Val{"Human Review Mockups?"}
-        B2_Val -->|Needs Iteration| B2
-        Version["v1.7 (June 3, 2025)"]
+        B2_Val -->|Approved (No Changes)| B3
+        B2_Val -->|Requested changes inconsistent with PRD| B2_User_Choice{"User Choice: Update PRD or Abandon Changes?"}
+        B2_Val -->|Requested changes consistent with PRD| B2
+
+        B2_User_Choice -->|Update PRD| B2_PRD_Update["Update PRD"]
+        B2_User_Choice -->|Abandon Changes| B3
+        B2_PRD_Update --> B2_PRD_Approved{"PRD Changes Approved?"}
+        B2_PRD_Approved -->|No| B2_PRD_Update
+        B2_PRD_Approved -->|Yes| B3
+
+        Version["v1.8 (June 4, 2025)"]
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
         class Version version
-        
     end
 
-B2_Val -->|Approved| B3["Phase 4: Derive Backend Specifications"]
-
+    B3["Phase 4: Derive Backend Specifications"]
 ```
 To build a functionality mockup take the validated wireframe and populate it with content in ways that demonstrate the desired functionality and behavior in a light weight way.  This is the clearest example of applying the "Code as Context" tenent of the Front First Method.
 
@@ -51,4 +57,3 @@ To build a functionality mockup take the validated wireframe and populate it wit
 *   If user request further changes, the repeat the loop by returning to the start of this step, comparing the requested changes with the PRD Document and creating an updated blackline version that identifies all additions and deletions to the PRD that have not yet been approved by the user.
 *   If the user approves some of the proposed changes, then update the PRD document with those changes, and stop blacklining the approved changes.
 *   If the user approves all of the proposed changes, then update the PRD document to incorporate all approved changes, stop blacklining all proposed changes, and once the PRD document has been updated, delete the blackline version of the PRD document.
-
