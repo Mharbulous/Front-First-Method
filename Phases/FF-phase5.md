@@ -4,15 +4,15 @@ graph TD
 Phase4["Phase 4: Prototype - Interactive Testing"] --> Phase5_1["Derive Backend Specifications from Validated Functionality Mockup"]
 
     subgraph Phase5["Phase 5"]
-        Phase5_1["Phase 5.1: AI-Assisted: Analyze Prototype to Define Data Models/Schemas"]    
+        Phase5_1["Phase 5.1: Analyze Prototype to Define Data Models/Schemas"]    
         Phase5_1 --> Phase5_1_Val{"Human Validate Data Model?"}
-        Phase5_1_Val -->|Needs Revision| Phase5_1
-        Phase5_1_Val -->|Approved| Phase5_2["Phase 5.2: AI-Assisted: Generate API Endpoint Specs"]
+        Phase5_1_Val -->|Iterate| Phase5_1
+        Phase5_1_Val -->|Approved| Phase5_2["Phase 5.2: Generate API Endpoint Specs"]
         Phase5_2 --> Phase5_2_Val{"Human Validate API Specs?"}
-        Phase5_2_Val -->|Needs Revision| Phase5_2
-        Phase5_2_Val -->|Approved| Phase5_3["Phase 5.3: AI-Assisted: Generate Initial Backend Structure/Stubs"]
+        Phase5_2_Val -->|Iterate| Phase5_2
+        Phase5_2_Val -->|Approved| Phase5_3["Phase 5.3: Generate Initial Backend Structure/Stubs"]
         Phase5_3 --> Phase5_3_Val{"Human Validate Backend Structure/Stubs?"}
-        Phase5_3_Val -->|Needs Revision| Phase5_3
+        Phase5_3_Val -->|Iterate| Phase5_3
         Phase5_3_Val -->|Approved| BackendSpecsFinalized["Backend Specs Finalized"]
         Version["v1.4 (June 1, 2025)"]
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
