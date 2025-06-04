@@ -1,4 +1,3 @@
-```mermaid
 graph TD
 Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"]
     Phase2 --> Phase3["Phase 3: Mockup - Visual Design"]
