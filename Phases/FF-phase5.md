@@ -1,7 +1,7 @@
 ```mermaid
 graph TD
 
-Phase4["Phase 4: Prototype - Interactive Testing"] --> Phase5_1["Derive Backend Specifications from Validated Functionality Mockup"]]
+Phase4["Phase 4: Prototype - Interactive Testing"] --> Phase5_1["Derive Backend Specifications from Validated Functionality Mockup"]
 
     subgraph Phase5["Phase 5"]
         Phase5_1["Phase 5.1: AI-Assisted: Analyze Prototype to Define Data Models/Schemas"]    
