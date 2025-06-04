@@ -6,8 +6,7 @@ graph TD
     E_P6B --> F_P4T["Phase 4 (Shifted): Backend-Aware Prototype Testing & Validation"]
     F_P4T --> G_P7F["Phase 7: Full Styling, Final Testing & Refinement"]
     G_P7F --> H_P8C["Application Complete"]
-
-    %% Feedback Loops from Phase 7 (Final Testing & Refinement)
+    
     G_P7F -->|Backend Implementation Issues| E_P6B
     G_P7F -->|Backend Specification Issues| D_P5S
     G_P7F -->|Issues with Backend-Aware Prototype Functionality/UX| F_P4T
