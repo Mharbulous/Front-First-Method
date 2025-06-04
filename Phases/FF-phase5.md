@@ -1,7 +1,7 @@
 ```mermaid
 graph TD
 
-Phase3["Phase 3: Functionality Mockup"] -.-> Phase5_1["Build Backend"]
+Phase3["Phase 3: Functionality Mockup"] -.->|informs| Phase5_1["Build Backend"]
 Phase3["Phase 3: Functionality Mockup"] --> Phase4["Phase 4: Approved Backend Specifications"]
 Phase4 --> Phase5_1
 
