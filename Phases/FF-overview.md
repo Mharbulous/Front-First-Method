@@ -16,7 +16,7 @@ graph TD
     
     
 
-    VersionInfo["v1.7 (Conceptual - Renumbered Reordered Flow)"]
+    VersionInfo["v1.7 (June 3, 2025)"]
     classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px;
     class VersionInfo version
 ```
