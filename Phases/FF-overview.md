@@ -1,7 +1,7 @@
 ```mermaid
 graph TD
     Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"]
-    Phase2 --> Phase3["Phase 3: Functional Mockup"]
+    Phase2 --> Phase3["Phase 3: Functionality Mockup"]
     Phase3 --> Phase4["Phase 4: Derive Backend Specifications from Functional Mockup"]
     Phase4 --> Phase5["Phase 5: Build Backend-Aware Prototype"]
     Phase5 --> Phase6["Phase 6: Prototype Testing & Validation"]

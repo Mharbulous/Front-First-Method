@@ -3,8 +3,8 @@
 ```mermaid
 graph TD
     
-    B1["Phase 1: PRD Document Complete"] --> B2["2.1 Create Wireframe"]    
-    subgraph Phase2["Phase 2: Wireframe - Structure & Layout"]
+    B1["Phase 1: PRD Document Complete"] --> B2["Create Wireframe - Structure & Layout"]    
+    subgraph Phase2["Phase 2"]
         B2 --> B2_Val{"Human Review Wireframes?"}
         B2_Val -->|Needs Iteration| B2
         Version["v1.7 (June 3, 2025)"]
