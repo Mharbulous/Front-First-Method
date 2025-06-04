@@ -1,8 +1,6 @@
 ```mermaid
 graph TD
 
-Phase3["Phase 3: Functionality Mockup"] -.->|informs| Phase5_1["Build Backend"]
-Phase3["Phase 3: Functionality Mockup"] --> Phase4["Phase 4: Approved Backend Specifications"]
 Phase4 --> Phase5_1
 
     subgraph Phase5["Phase 5"]
@@ -20,6 +18,8 @@ Phase4 --> Phase5_1
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
         class Version version
     end
+ 
+Phase5_1 -.->|get context|Phase3["Phase 3: Functionality Mockup"]
 
 BackendSpecsFinalized --> Phase6["Phase 6: Backend Development"]
 ```
