@@ -2,6 +2,7 @@
 graph TD
 
 Phase4["Phase 4: Backend Specifications Approved"] --> Phase5_1
+Phase3["Phase 3: Functionality Mockup"] -.-> |informs|Phase5_1
 
     subgraph Phase5["Phase 5"]
         Phase5_1["5.1: Define Data Models/Schemas"]    
@@ -18,8 +19,6 @@ Phase4["Phase 4: Backend Specifications Approved"] --> Phase5_1
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
         class Version version
     end
- 
-Phase5_1 <-.- |informs|Phase3["Phase 3: Functionality Mockup"]
 
 BackendSpecsFinalized --> Phase6["Phase 6: Backend Development"]
 ```
