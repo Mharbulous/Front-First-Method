@@ -1,7 +1,7 @@
 ```mermaid
 graph TD
 
-    subgraph Phase5["Context"]
+    subgraph Context["Context"]
         Phase3["Phase 3: Functionality Mockup"] --> Phase4["Phase 4: Backend Specifications Approved"]
         Phase4["Phase 4: Backend Specifications Approved"] --> Phase5_1
     end
