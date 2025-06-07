@@ -3,10 +3,11 @@ graph TD
 
     subgraph Context["Context"]
         Phase3["Phase 3: Functionality Mockup"] --> Phase4["Phase 4: Backend Specifications Approved"]
-        Phase4["Phase 4: Backend Specifications Approved"] --> Phase5_1
+        
     end
 
     subgraph Phase5["Phase 5"]
+        Phase4["Phase 4: Backend Specifications Approved"] --> Phase5_1        
         Phase5_1["5.1: Define Data Models/Schemas"]    
         Phase5_1 --> Phase5_1_Val{"Human Validate Data Model?"}
         Phase5_1_Val -->|Iterate| Phase5_1
