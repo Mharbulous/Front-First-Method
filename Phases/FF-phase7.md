@@ -2,7 +2,7 @@
 graph TD
     Phase6["Phase 6: Backend Development & Integration"] --> Phase7_1
 
-    subgraph Phase7 ["Phase 7: Continuous Iteration, Testing & Refinement"]
+    subgraph Phase7 ["Phase 7"]
         Version["v1.4 (June 1, 2025)"]
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
         class Version version
