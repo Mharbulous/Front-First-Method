@@ -32,7 +32,7 @@ graph TD
 To build a functionality mockup take the validated wireframe and populate it with content in ways that demonstrate the desired functionality and behavior in a light weight way.  This is the clearest example of applying the "Code as Context" tenent of the Front First Method.
 
 
-### Step 3.1: Build Functionality Mockup (Static HTML/CSS/JS or using UI library components with mock data)
+### Phase 3.1: Build Functionality Mockup (Static HTML/CSS/JS or using UI library components with mock data)
 *   Translate the approved wireframe into an interactive mockup. This can be static HTML and CSS, or utilize components from a specified UI library/framework.
 *   Focus on accurately representing the UI elements, layout, navigation, and basic interactivity (e.g., button clicks leading to other views, form field interactions). 
 *   Use placeholder/mock data to simulate dynamic content, reflecting practices where developers use previously prepared static data for initial UI work.
@@ -44,7 +44,7 @@ To build a functionality mockup take the validated wireframe and populate it wit
 
 
 
-### Step 3.2: Stakeholder/User Validation Loop for Front-End Prototype
+### Phase 3.2: Stakeholder/User Validation Loop for Front-End Prototype
 *   Present the functionality mockup for review by the human user.
 *   Prompt for specific feedback on:
     *   Usability
@@ -56,7 +56,7 @@ To build a functionality mockup take the validated wireframe and populate it wit
 
 *   Once approved **This validated mockup will become the primary source of truth.**
 
-### Step 3.3: Update PRD 
+### Phase 3.3: Update PRD 
 *   Compare the behavior and specifications illustrated by the validated mockup with the PRD document, and identify any inconsistencies and gaps.
 *   Internally identify changes to the PRD that will be required to make it consistent with the validated mockup. 
 *   Review the PRD template, and create a blackline version of the PRD document that has has been updated to make it consistent with the requested changes.  The blackline version of the PRD document must show text proposed for removal using the strikethrough font style, and any new text added must be shown with underlining using <u></u> html tags.  
