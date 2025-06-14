@@ -11,9 +11,9 @@ graph TD
         Phase6_2 --> Phase6_2_Val{"Human Review Business Logic?"}
         Phase6_2_Val -->|Needs Revision| Phase6_2
         Phase6_2_Val -->|Approved| Phase6_3["Phase 6.3: AI-Assisted: Integrate Feature with Front-End"]
-        Phase6_3 --> D_Loop_Check{"More Features/Modules?"}
+        Phase6_3 --> D_Loop_Check{"Add more Features?"}
         D_Loop_Check -->|Yes| D_Loop_Start
-        D_Loop_Check -->|No / All Features Integrated| ReadyForPhase7["Ready for Phase 7"]
+        D_Loop_Check -->|No| ReadyForPhase7["Ready for Phase 7"]
         Version["v1.4 (June 1, 2025)"]
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
         class Version version
