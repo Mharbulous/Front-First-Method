@@ -29,7 +29,7 @@ graph TD
 
 ```mermaid
 graph LR
-      subgraph Files["File Folder Structure"]
+      subgraph Files["Folders"]
         Phase1 -.-> Docs["\1 Docs"]
         Docs -.- PRD
         Docs -.- File structure
