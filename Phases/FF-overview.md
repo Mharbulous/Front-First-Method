@@ -10,9 +10,9 @@ graph TD
     Phase4 -.- Specs["Backend Specifications"]
     Phase4 --> Phase5["Phase 5: Build Backend-Aware Prototype"]
     Phase5 -.- Prototype["Prototype"]
-    Phase5 --> Phase6["Phase 6: Alpha Prototype Testing & Validation"]
-    Phase6 -.- Alpha["Alpha Test"]
+    Phase5 --> Phase6["Phase 6: Alpha Prototype Testing & Validation"]    
     Phase6 -.- Iterate["Iterate/Revise"]
+    Phase6 -.- Alpha["Alpha Test"]
 
     Phase6 --> Phase7["Phase 7: Beta Prototype for Live Testing"]    
     Phase7 -.- Beta["Beta Test"]  
