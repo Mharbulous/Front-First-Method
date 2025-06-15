@@ -1,9 +1,11 @@
 # FRONT FIRST METHOD
 
-This repository documents a AI coding method derived from the BMAD Method, https://github.com/bmadcode/BMAD-METHOD.git
+This front first method is intended to supplement the BMAD Method, https://github.com/bmadcode/BMAD-METHOD.git
 
 ## The difference
-* We add a structured process for building code that focuses on developing the front end first, and then using that front end as the primary source of truth.
+* We structured the collaborative coding process to focus on PRD -> Wireframe -> 
+
+ the front end first, and then using that front end as the primary source of truth.
 
 
 
