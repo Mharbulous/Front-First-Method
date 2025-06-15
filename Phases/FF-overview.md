@@ -12,7 +12,13 @@ graph TD
     Phase6 -->|Revise/Clarify Functional Mockup| Phase3
     Phase6 -->|Backend Specification Issues| Phase4    
     
-    subgraph Files["Documents"]
+    
+
+    VersionInfo["v1.8 (Jun 14, 2025)"]
+    classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px;
+    class VersionInfo version
+
+graph Files["Documents"]
         direction LR
         PRD["1- Planning\"]
         Wireframe["2- Wireframe"]
@@ -22,11 +28,9 @@ graph TD
         Alpha["5- Alpha Test"]
         Alpha["6- Beta Test"]
         Production["7- Production Release"]
-    end
+end
 
-    VersionInfo["v1.8 (Jun 14, 2025)"]
-    classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px;
-    class VersionInfo version
+
 ```
 ## General Directives
 
