@@ -29,8 +29,13 @@ graph TD
 
 ```mermaid
 graph LR
-      subgraph Files["Documents"]
-        Phase1 -.-> PRD["\1 Planning"]
+      subgraph Files["File Folder Structure"]
+        Phase1 -.-> Docs["\1 Docs"]
+        Docs -.- PRD
+        Docs -.- File structure
+        Docs -.- PRD
+        
+        
         Phase2 -.-> Wireframe["\2 Wireframe"]
         Phase3 -.-> Mockup["\3 Mockup"]
         Phase4 -.-> Specs["\4 Backend Specifications"]
