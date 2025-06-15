@@ -37,7 +37,7 @@ graph LR
         Phase4 -.-> Specs["4- Backend Specifications"]
         Phase5 -.-> Prototype["5- Prototype"]
         Phase6 -.-> Alpha["5- Alpha Test"]
-        Phase7 -.-> Alpha["6- Beta Test"]
+        Phase7 -.-> Beta["6- Beta Test"]
         Phase8 -.-> Production["7- Production Release"]
     end
 ```
