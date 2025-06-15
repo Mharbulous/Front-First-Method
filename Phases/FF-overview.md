@@ -1,6 +1,7 @@
 ```mermaid
 graph TD
     Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"]
+    Phase1 -.-> PRD["1- Planning\"]
     Phase2 --> Phase3["Phase 3: Functionality Mockup"]
     Phase3 --> Phase4["Phase 4: Derive Backend Specifications from Functionality Mockup"]
     Phase4 --> Phase5["Phase 5: Build Backend-Aware Prototype"]
@@ -13,7 +14,7 @@ graph TD
     Phase6 -->|Backend Specification Issues| Phase4    
 
 
-        Phase1 -.-> PRD["1- Planning\"]
+        
         Phase2 -.-> Wireframe["2- Wireframe"]
         Phase3 -.-> Mockup["3- Mockup"]
         Phase4 -.-> Specs["4- Backend Specifications"]
