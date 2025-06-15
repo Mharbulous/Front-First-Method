@@ -31,14 +31,14 @@ graph TD
 ```mermaid
 graph LR
       subgraph Files["Documents"]
-        Phase1 -.-> PRD["1- Planning\"]
-        Phase2 -.-> Wireframe["2- Wireframe"]
-        Phase3 -.-> Mockup["3- Mockup"]
-        Phase4 -.-> Specs["4- Backend Specifications"]
-        Phase5 -.-> Prototype["5- Prototype"]
-        Phase6 -.-> Alpha["5- Alpha Test"]
-        Phase7 -.-> Beta["6- Beta Test"]
-        Phase8 -.-> Production["7- Production Release"]
+        Phase1 -.-> PRD["\1 Planning"]
+        Phase2 -.-> Wireframe["\2 Wireframe"]
+        Phase3 -.-> Mockup["\3 Mockup"]
+        Phase4 -.-> Specs["\4 Backend Specifications"]
+        Phase5 -.-> Prototype["\5 Prototype"]
+        Phase6 -.-> Alpha["\5 Alpha"]
+        Phase7 -.-> Beta["\6 Beta"]
+        Phase8 -.-> Production["\7 Production"]
     end
 ```
 
