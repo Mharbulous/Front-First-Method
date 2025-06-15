@@ -6,7 +6,7 @@ graph TD
     Phase2 -.- Wireframe["Wireframe"]
     Phase2 --> Phase3["Phase 3: Functionality Mockup"]
     Phase3 -.- Mockup["Mockup"]
-    Phase3 --> Phase4["Phase 4: Derive Backend Specifications from Functionality Mockup"]
+    Phase3 --> Phase4["Phase 4: Engineering"]
     Phase4 -.- Specs["Backend Specifications"]
     Phase4 --> Phase5["Phase 5: Build Backend-Aware Prototype"]
     Phase5 -.- Prototype["Prototype"]
