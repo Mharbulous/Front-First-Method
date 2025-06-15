@@ -12,7 +12,7 @@ The method consists of seven phases:
 7. User Testing (results in a Beta test)
 8. Production
 
-More detail in \Phases
+Each phase is described in more detail in \Phases
 
 
 
