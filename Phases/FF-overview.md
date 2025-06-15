@@ -17,7 +17,7 @@ graph TD
     Phase6 -->|Fundamental Structure/Layout Issues| Phase2
     Phase6 -->|Revise/Clarify Functional Mockup| Phase3
     Phase6 -->|Backend Specification Issues| Phase4    
-    Phase7 -.- Alpha["Beta Test"]  
+    Phase7 -.- Beta["Beta Test"]  
     Phase8 -.- Production["7- Production Release"]
 
        
