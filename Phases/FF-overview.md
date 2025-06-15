@@ -22,7 +22,7 @@ end
 
 
 ```mermaid
-graph LR Files["Documents"]
+graph LR
         
         PRD["1- Planning\"]
         Wireframe["2- Wireframe"]
