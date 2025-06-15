@@ -30,10 +30,7 @@ graph TD
 ```mermaid
 graph LR
       subgraph Files["Folders"]
-        Phase1 -.-> Docs["\1 Docs"]
-        Docs -.- PRD
-        Docs -.- Tree["File structure"]
-        Docs --> Epics
+        Phase1 -.-> Docs["\1 Docs"]        
         Phase2 -.-> Wireframe["\2 Wireframe"]
         Phase3 -.-> Mockup["\3 Mockup"]
         Phase4 -.-> Specs["\4 Backend Specifications"]
