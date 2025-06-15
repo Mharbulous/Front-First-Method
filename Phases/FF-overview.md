@@ -5,13 +5,12 @@ graph TD
     Phase3 --> Phase4["Phase 4: Derive Backend Specifications from Functionality Mockup"]
     Phase4 --> Phase5["Phase 5: Build Backend-Aware Prototype"]
     Phase5 --> Phase6["Phase 6: Alpha Prototype Testing & Validation"]
-    Phase6 --> Phase7["Phase 8: Beta Prototype for User Testing"]
+    Phase6 --> Phase7["Phase 7: Beta Prototype for User Testing"]
     
     Phase6 -->|Revise/Clarify Requirements| Phase1
     Phase6 -->|Fundamental Structure/Layout Issues| Phase2
     Phase6 -->|Revise/Clarify Functional Mockup| Phase3
-    Phase6 -->|Backend Specification Issues| Phase4
-    Phase6 -->|Backend Implementation Issues| Phase5            
+    Phase6 -->|Backend Specification Issues| Phase4    
     
     
 
