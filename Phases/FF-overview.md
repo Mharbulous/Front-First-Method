@@ -13,6 +13,7 @@ graph TD
     Phase6 -->|Backend Specification Issues| Phase4    
     
     subgraph Files["Documents"]
+        Direction LR
         PRD["1- Planning\"]
         Wireframe["2- Wireframe"]
         Mockup["3- Mockup"]
