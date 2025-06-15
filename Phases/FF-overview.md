@@ -13,7 +13,9 @@ graph TD
     Phase6 -->|Backend Specification Issues| Phase4    
     
     subgraph Files["Documents"]
-        PRD --> PRD
+        PRD --> Wireframe
+        Wireframec --> Mockup
+
 
     end
 
