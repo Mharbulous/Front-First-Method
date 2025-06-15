@@ -12,7 +12,7 @@ graph TD
     Phase6 -->|Revise/Clarify Functional Mockup| Phase3
     Phase6 -->|Backend Specification Issues| Phase4    
 
-subgraph Files["Documents"]
+
         Phase1 -.-> PRD["1- Planning\"]
         Phase2 -.-> Wireframe["2- Wireframe"]
         Phase3 -.-> Mockup["3- Mockup"]
@@ -21,7 +21,7 @@ subgraph Files["Documents"]
         Phase6 -.-> Alpha["5- Alpha Test"]
         Phase7 -.-> Alpha["6- Beta Test"]
         Phase8 -.-> Production["7- Production Release"]
-    end
+
        
 
     VersionInfo["v1.8 (Jun 14, 2025)"]
