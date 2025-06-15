@@ -32,7 +32,7 @@ graph LR
       subgraph Files["Folders"]
         Phase1 -.-> Docs["\1 Docs"]
         Docs -.- PRD
-        Docs -.- File structure
+        Docs -.- Tree["File structure"]
         Docs -.- PRD
         Phase2 -.-> Wireframe["\2 Wireframe"]
         Phase3 -.-> Mockup["\3 Mockup"]
