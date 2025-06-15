@@ -14,7 +14,7 @@ graph TD
     
     subgraph Files["Documents"]
         PRD --> Wireframe
-        Wireframec --> Mockup
+        Wireframe --> Mockup
 
 
     end
