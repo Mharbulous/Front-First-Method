@@ -1,5 +1,5 @@
 ```mermaid
-graph TD
+graph TD ["Overview"]
     Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"]
     Phase2 --> Phase3["Phase 3: Functionality Mockup"]
     Phase3 --> Phase4["Phase 4: Derive Backend Specifications from Functionality Mockup"]
