@@ -12,6 +12,8 @@ graph TD
     Phase5 -.- Prototype["Prototype"]
     Phase5 --> Phase6["Phase 6: Alpha Prototype Testing & Validation"]
     Phase6 -.- Alpha["Alpha Test"]
+    Phase6 -.- Iterate["Alpha Test"]
+
     Phase6 --> Phase7["Phase 7: Beta Prototype for Live Testing"]    
     Phase7 -.- Beta["Beta Test"]  
     Phase7 --> Production["8- Production Release"]
