@@ -12,7 +12,10 @@ graph TD
     Phase6 -->|Revise/Clarify Functional Mockup| Phase3
     Phase6 -->|Backend Specification Issues| Phase4    
     
-    
+    subgraph Files["Documents"]
+        PRD --> PRD
+
+    end
 
     VersionInfo["v1.7 (June 3, 2025)"]
     classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px;
