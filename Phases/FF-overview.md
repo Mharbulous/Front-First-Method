@@ -22,6 +22,7 @@ graph TD
 ```mermaid
 graph LR
       subgraph Files["Documents"]  
+        directoin LR
         PRD["1- Planning\"]
         Wireframe["2- Wireframe"]
         Mockup["3- Mockup"]
