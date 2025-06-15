@@ -11,6 +11,17 @@ graph TD
     Phase6 -->|Fundamental Structure/Layout Issues| Phase2
     Phase6 -->|Revise/Clarify Functional Mockup| Phase3
     Phase6 -->|Backend Specification Issues| Phase4    
+
+subgraph Files["Documents"]
+        Phase1 -.-> PRD["1- Planning\"]
+        Phase2 -.-> Wireframe["2- Wireframe"]
+        Phase3 -.-> Mockup["3- Mockup"]
+        Phase4 -.-> Specs["4- Backend Specifications"]
+        Phase5 -.-> Prototype["5- Prototype"]
+        Phase6 -.-> Alpha["5- Alpha Test"]
+        Phase7 -.-> Alpha["6- Beta Test"]
+        Phase8 -.-> Production["7- Production Release"]
+    end
        
 
     VersionInfo["v1.8 (Jun 14, 2025)"]
@@ -22,14 +33,14 @@ graph TD
 ```mermaid
 graph LR
       subgraph Files["Documents"]
-        PRD["1- Planning\"]
-        Wireframe["2- Wireframe"]
-        Mockup["3- Mockup"]
-        Specs["4- Backend Specifications"]
-        Prototype["5- Prototype"]
-        Alpha["5- Alpha Test"]
-        Alpha["6- Beta Test"]
-        Production["7- Production Release"]
+        Phase1 -.-> PRD["1- Planning\"]
+        Phase2 -.-> Wireframe["2- Wireframe"]
+        Phase3 -.-> Mockup["3- Mockup"]
+        Phase4 -.-> Specs["4- Backend Specifications"]
+        Phase5 -.-> Prototype["5- Prototype"]
+        Phase6 -.-> Alpha["5- Alpha Test"]
+        Phase7 -.-> Alpha["6- Beta Test"]
+        Phase8 -.-> Production["7- Production Release"]
     end
 ```
 
