@@ -7,7 +7,7 @@ The method consists of seven phases:
 2. Layout & Navigation (results in static Wireframe)
 3. User Interface (results in static Mockup of interactive interface)
 4. Engineering (Results in backend specification)
-5. Prototype (results in a functional prototype)
+5. Implementation (results in a functional prototype)
 6. Aesthetics and Design (results in an Alpha Test)
 7. User Testing (results in a Beta test)
 8. Production

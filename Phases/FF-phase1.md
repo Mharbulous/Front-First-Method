@@ -12,7 +12,7 @@ graph TD
         class Version version
     end
 
-Phase1_6 --> Phase2["Phase 2: Wireframe - Structure & Layout"]
+Phase1_6 --> Phase2["Phase 2: Layout & Navigation"]
 ```
 
 ### Step 1.1: Elicit and Clarify UI/UX Requirements & User Flows

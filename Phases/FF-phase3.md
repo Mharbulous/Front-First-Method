@@ -1,8 +1,8 @@
 
 ```mermaid
 graph TD
-    B1["Phase 2: Validated Wireframe"] --> B2["Build Functionality Mockup"]
-    B2_Val -->|Approved| Phase4["Phase 4: Derive Backend Specifications"]
+    B1["Phase 2: PRD"] --> B2["Build Functionality Mockup"]
+    B2_Val -->|Approved| Phase4["Phase 4: Engineering"]
 
     subgraph Phase3["Phase 3"]
         B2 --> B2_Val{"Human Review Mockups?"}
