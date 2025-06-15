@@ -18,9 +18,8 @@ graph TD
     classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px;
     class VersionInfo version
 
-end
 
-graph Files["Documents"]
+subgraph Files["Documents"]
         direction LR
         PRD["1- Planning\"]
         Wireframe["2- Wireframe"]
