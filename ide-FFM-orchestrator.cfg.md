@@ -3,10 +3,15 @@
 ## Data Resolution
 
 agent-root: \modules\bmad-method\bmad-agent
+
 checklists: \modules\bmad-method\bmad-agent\checklists
+
 data: \modules\bmad-method\bmad-agent\data
+
 personas: modules\bmad-method\bmad-agent\personas
+
 tasks: modules\bmad-method\bmad-agent\tasks
+
 templates: modules\bmad-method\bmad-agent\templates
 
 NOTE: All Persona references and task markdown style links assume these data resolution paths unless a specific path is given.
