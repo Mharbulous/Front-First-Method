@@ -13,14 +13,14 @@ graph TD
     Phase5 --> Phase6["Phase 6: Alpha Prototype Testing & Validation"]
     Phase6 -.- Alpha["Alpha Test"]
     Phase6 --> Phase7["Phase 7: Beta Prototype for Live Testing"]    
-    Phase6 -->|Revise/Clarify Requirements| Phase1
-    Phase6 -->|Fundamental Structure/Layout Issues| Phase2
-    Phase6 -->|Revise/Clarify Functional Mockup| Phase3
-    Phase6 -->|Backend Specification Issues| Phase4    
     Phase7 -.- Beta["Beta Test"]  
     Phase7 --> Production["8- Production Release"]
 
-       
+    
+    Iterate -->|Revise/Clarify Requirements| Phase1
+    Iterate -->|Fundamental Structure/Layout Issues| Phase2
+    Iterate -->|Revise/Clarify Functional Mockup| Phase3
+    Iterate -->|Backend Specification Issues| Phase4       
 
     VersionInfo["v1.8 (Jun 14, 2025)"]
     classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px;
