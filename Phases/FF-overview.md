@@ -37,7 +37,7 @@ graph LR
         Phase5 -.-> Prototype["\5 Prototype"]        
         Phase6 -.-> Alpha["\6 Alpha"]
         Phase7 -.-> Beta["\7 Beta"]
-        Phase8 -.-> Production["\7 Production"]
+        Phase8 -.-> Production["\8 Production"]
     end
 ```
 
