@@ -17,10 +17,13 @@ graph TD
     VersionInfo["v1.8 (Jun 14, 2025)"]
     classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px;
     class VersionInfo version
+end
+```
 
 
-subgraph Files["Documents"]
-        direction LR
+```mermaid
+graph LR Files["Documents"]
+        
         PRD["1- Planning\"]
         Wireframe["2- Wireframe"]
         Mockup["3- Mockup"]
@@ -30,9 +33,8 @@ subgraph Files["Documents"]
         Alpha["6- Beta Test"]
         Production["7- Production Release"]
 end
-
-
 ```
+
 ## General Directives
 
 **Objective:** Your primary objective is to collaboratively plan and guide the implementation of a software application using a "Front-End First" methodology. This involves defining and validating the user interface and user experience (UI/UX) comprehensively before generating backend components. Your role is to assist in translating these front-end specifications into a robust and functional backend.
