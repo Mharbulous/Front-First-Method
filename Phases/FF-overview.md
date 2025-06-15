@@ -35,8 +35,9 @@ graph LR
         Phase3 -.-> Mockup["\3 Mockup"]
         Phase4 -.-> Specs["\4 Specifications"]
         Phase5 -.-> Prototype["\5 Prototype"]        
-        Phase6 -.-> Beta["\6 Alpha"]
-        Phase7 -.-> Production["\7 Beta"]
+        Phase6 -.-> Alpha["\6 Alpha"]
+        Phase7 -.-> Beta["\7 Beta"]
+        Phase8 -.-> Production["\7 Production"]
     end
 ```
 
