@@ -11,13 +11,11 @@ graph TD
     Phase6 -->|Fundamental Structure/Layout Issues| Phase2
     Phase6 -->|Revise/Clarify Functional Mockup| Phase3
     Phase6 -->|Backend Specification Issues| Phase4    
-    
-    
+       
 
     VersionInfo["v1.8 (Jun 14, 2025)"]
     classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px;
     class VersionInfo version
-end
 ```
 
 
@@ -32,7 +30,7 @@ graph LR
         Alpha["5- Alpha Test"]
         Alpha["6- Beta Test"]
         Production["7- Production Release"]
-end
+
 ```
 
 ## General Directives
