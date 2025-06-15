@@ -1,5 +1,5 @@
 ```mermaid
-graph TD ["Overview"]
+graph TD
     Phase1["Phase 1: Planning"] --> Phase2["Phase 2: Wireframe - Structure & Layout"]
     Phase2 --> Phase3["Phase 3: Functionality Mockup"]
     Phase3 --> Phase4["Phase 4: Derive Backend Specifications from Functionality Mockup"]
@@ -21,7 +21,7 @@ graph TD ["Overview"]
 
 ```mermaid
 graph LR
-        
+      subgraph Files["Documents"]  
         PRD["1- Planning\"]
         Wireframe["2- Wireframe"]
         Mockup["3- Mockup"]
@@ -30,7 +30,7 @@ graph LR
         Alpha["5- Alpha Test"]
         Alpha["6- Beta Test"]
         Production["7- Production Release"]
-
+    end
 ```
 
 ## General Directives
