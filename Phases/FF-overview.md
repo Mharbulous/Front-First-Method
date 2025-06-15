@@ -3,29 +3,22 @@ graph TD
     
     Phase1["Phase 1: Planning"] -.- PRD["PRD"]
     Phase1 --> Phase2["Phase 2: Wireframe - Structure & Layout"]
-    Phase2 -.- Wireframe["2- Wireframe"]
+    Phase2 -.- Wireframe["Wireframe"]
     Phase2 --> Phase3["Phase 3: Functionality Mockup"]
-    Phase3 -.- Mockup["3- Mockup"]
+    Phase3 -.- Mockup["Mockup"]
     Phase3 --> Phase4["Phase 4: Derive Backend Specifications from Functionality Mockup"]
-    Phase4 -.- Specs["4- Backend Specifications"]
+    Phase4 -.- Specs["Backend Specifications"]
     Phase4 --> Phase5["Phase 5: Build Backend-Aware Prototype"]
-    Phase5 -.- Prototype["5- Prototype"]
+    Phase5 -.- Prototype["Prototype"]
     Phase5 --> Phase6["Phase 6: Alpha Prototype Testing & Validation"]
-    Phase6 -.- Alpha["5- Alpha Test"]
+    Phase6 -.- Alpha["Alpha Test"]
     Phase6 --> Phase7["Phase 7: Beta Prototype for Live Testing"]    
     Phase6 -->|Revise/Clarify Requirements| Phase1
     Phase6 -->|Fundamental Structure/Layout Issues| Phase2
     Phase6 -->|Revise/Clarify Functional Mockup| Phase3
     Phase6 -->|Backend Specification Issues| Phase4    
-    Phase7 -.- Alpha["6- Beta Test"]
-    
-        
-    
-
-    
-
-        
-        Phase8 -.-> Production["7- Production Release"]
+    Phase7 -.- Alpha["Beta Test"]  
+    Phase8 -.- Production["7- Production Release"]
 
        
 
