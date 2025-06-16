@@ -5,7 +5,7 @@ graph TD
     Phase1 --> Phase2["Phase 2: Content & Navigation"]
     Phase2 -.- Sitemap["Sitemap"]
 
-    Phase3 --> Phase2["Phase 2: Layout"]
+    Phase2 --> Phase3["Phase 2: Layout"]
     Phase3 -.- Wireframe["Wireframe"]
     Phase3 --> Phase4["Phase 4: User Interface"]
     Phase4 -.- Mockup["Mockup"]
