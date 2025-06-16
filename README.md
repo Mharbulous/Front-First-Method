@@ -20,8 +20,11 @@ Build the front end first and use the front end as the primary source of truth f
 
 Use Gherkin sytnax to define acceptance criteria (Scenario: Given, when, then).  When possible, convert acceptance criteria into test files (a.k.a. spec files) for a tool like vitest.  Do this before implementing functionality.
 
+### 3. Decomposition
 
-### 3. Sliding Phase States
+Break down all complex requirements and features into smaller, individually implementable, and testable steps. For each step, clearly define inputs, processing, and expected outputs.
+
+### 4. Sliding Phase States
 
 - **Phases** are major deliverables with clear governance states
 - **Steps** are integrated components within a phase that are developed iteratively together due to their interdependencies
