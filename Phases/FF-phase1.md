@@ -15,7 +15,7 @@ graph TD
 Phase1_6 --> Phase2["Phase 2: Layout & Navigation"]
 ```
 
-
+```mermaid
 graph TD
 
     subgraph Phase1["Phase 1: Discovery & Planning"]
@@ -29,6 +29,8 @@ graph TD
     end
 
     Phase1_6 --> Phase2["Phase 2: Design & Development"]
+```
+
 
 ### Step 1.1: Elicit and Clarify UI/UX Requirements & User Flows
 
