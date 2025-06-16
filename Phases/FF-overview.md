@@ -1,7 +1,7 @@
 ```mermaid
 graph TD
     
-    Phase1["Phase 1: Planning & Research"] -.- PRD["PRD"]
+    Phase1["Phase 1: Research & Planning"] -.- PRD["PRD"]
     Phase1 --> Phase2["Phase 2: Layout & Navigation"]
     Phase2 -.- Wireframe["Wireframe"]
     Phase2 --> Phase3["Phase 3: User Interface"]
