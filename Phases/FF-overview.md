@@ -1,10 +1,8 @@
 ```mermaid
 graph TD
-    
     Phase1["Phase 1: Research & Planning"] -.- PRD["PRD"]
     Phase1 --> Phase2["Phase 2: Content & Navigation"]
     Phase2 -.- Sitemap["Sitemap"]
-
     Phase2 --> Phase3["Phase 2: Layout"]
     Phase3 -.- Wireframe["Wireframe"]
     Phase3 --> Phase4["Phase 4: User Interface"]
@@ -13,31 +11,25 @@ graph TD
     Phase5 -.- Specs["Backend Specifications"]
     Phase5 --> Phase6["Phase 6: Prototype"]
     Phase6 -.- Prototype["Prototype"]
-    Phase6 --> Phase7["Phase 7: Aesthetics & Design"]    
-    
+    Phase6 --> Phase7["Phase 7: Aesthetics & Design"]
     Phase7 -.- Alpha["Alpha Test"]
-
-    Phase7 --> Phase8["Phase 8: User Testing"]    
-    Phase8 -.- Beta["Beta Test"]  
+    Phase7 --> Phase8["Phase 8: User Testing"]
+    Phase8 -.- Beta["Beta Test"]
     Phase8 --> Production["8- Production Release"]
-
-    
-    
 
     VersionInfo["v1.8 (Jun 14, 2025)"]
     classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px;
     class VersionInfo version
 ```
 
-
 ```mermaid
 graph LR
-      subgraph Files["Folders"]
-        Phase1 -.-> Docs["\1 Docs"]        
+    subgraph Files["Folders"]
+        Phase1 -.-> Docs["\1 Docs"]
         Phase2 -.-> Wireframe["\2 Wireframe"]
         Phase3 -.-> Mockup["\3 Mockup"]
         Phase4 -.-> Specs["\4 Specifications"]
-        Phase5 -.-> Prototype["\5 Prototype"]        
+        Phase5 -.-> Prototype["\5 Prototype"]
         Phase6 -.-> Alpha["\6 Alpha"]
         Phase7 -.-> Beta["\7 Beta"]
         Phase8 -.-> Production["\8 Production"]
