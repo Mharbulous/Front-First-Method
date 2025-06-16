@@ -22,7 +22,7 @@ Use Gherkin sytnax to define acceptance criteria (Scenario: Given, when, then). 
 
 ### 3. Decomposition
 
-Break down all complex requirements and features into smaller, individually implementable, and testable steps. For each step, clearly define inputs, processing, and expected outputs.
+Break down all complex requirements and features into small, simple, individually implementable, and testable steps. For each step, clearly define inputs, processing, and expected outputs.
 
 ### 4. Sliding Phase States
 
