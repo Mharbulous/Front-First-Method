@@ -16,8 +16,13 @@ Build the front end first and use the front end as the primary source of truth f
 \src\styles\frills\
 \src\styles\indicators\
 
+### 2. Test-Driven Development
 
-### 2. Sliding Phase States
+Use Gherkin sytnax to define acceptance criteria (Scenario: Given, when, then).
+Convert this acceptance criteria into test files (a.k.a. spec files) for a tool like vitest.
+
+
+### 3. Sliding Phase States
 
 - **Phases** are major deliverables with clear governance states
 - **Steps** are integrated components within a phase that are developed iteratively together due to their interdependencies
@@ -34,10 +39,6 @@ This creates a sliding window where only the current phase and the immediately p
 - Phase 5: Revising 
 - Phases 1-4: Locked
 
-### 3. Test-Driven Development
-
-Use Gherkin sytnax to define acceptance criteria (Scenario: Given, when, then).
-Convert this acceptance criteria into test files (a.k.a. spec files) for a tool like vitest.
 
 
 
