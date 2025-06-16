@@ -9,7 +9,7 @@ graph TD
     Phase4 -.- Mockup["Mockup"]
     Phase4 --> Phase5["Phase 5: Technical Design"]
     Phase5 -.- TechDesign["Technical Design Document"]
-    Phase5 --> Phase6["Phase 6: Engineering"]
+    Phase5 --> Phase6["Phase 6: Implementation"]
     Phase6 -.- Specs["Backend Specifications"]
     Phase6 --> Phase7["Phase 7: Prototype"]
     Phase7 -.- Prototype["Prototype"]
