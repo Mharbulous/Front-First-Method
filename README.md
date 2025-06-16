@@ -37,20 +37,27 @@ This creates a sliding window where only the current phase and the immediately p
 - Phase 5: Revising 
 - Phases 1-4: Locked
 
+### 3. Test-Driven Development
+
+Use Gherkin sytnax to define acceptance criteria (Scenario: Given, when, then).
+Convert this acceptance criteria into test files (a.k.a. spec files) for a tool like vitest.
+
+
 
 
 ## Phases
 
-Figurout out the best way to 
+We are in the process of figuring out the best way to break up the process in accordance with the above tenets.  The following list is the currently planned sequence of phases:  
 
 1. **Research & Planning** (results in PRD)
 2. **Content & Navigation** (results in Sitemap)
-3. **Layout** (results in Wireframe)
-4. **User Interface** (results in Mockup)
+3. **Interface & Layout** (results in Wireframe)
+4. **Functional Design** (results in Blueprint)
 5. **Technical Design** (results in Technical Design Document)
-6. **Engineering** (results in Backend Specifications)
-7. **Prototype** (results in Prototype)
-8. **Aesthetics & Design** (results in Alpha Test)
-9. **User Testing** (results in Beta Test)
+6. **Scaffolding** (results in Specification and Test Files)
+6. **Prototyping** (results in a Prototype)
+7. **Implementation** (results in Alpha Test)
+8. **Aesthetics & Design** (results in Beta Test)
+9. **External Testing**  (results in production version)
 10. **Production Release**
 
