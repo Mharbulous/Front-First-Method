@@ -5,10 +5,6 @@
 
 This front first method is a structured process for collaborative AI assisted coding.
 
-The method consists of 10 phases, with each phase described in more detail in \Phases folder.
-
-We are currently working on how best to break up the process into phases based on the following key tenets:
-
 ## Key Tenets
 
 ### 1. Frontend First
