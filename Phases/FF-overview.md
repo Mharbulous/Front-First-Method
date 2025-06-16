@@ -15,10 +15,11 @@ graph TD
     Phase6 --> Phase7["Phase 7: Implementation"]
     Phase7 -.- Prototype["Prototype"]
     Phase7 --> Phase8["Phase 8: Internal Testing"]
-    Phase8 -.- Alpha["Alpha Test"]
+    Phase8 -.- Alpha["Alpha Version"]
     Phase8 --> Phase9["Phase 9: External Testing"]
-    Phase9 -.- Beta["Beta Test"]
-    Phase9 --> Phase10["Phase 10: Production Release"]
+    Phase9 -.- Beta["Beta Version"]
+    Phase9 --> Phase10["Phase 10: Production"]
+    Phase10 -.- Release["Release Version"]
 
     VersionInfo["v1.10 (Jun 16, 2025)"]
     classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px;
