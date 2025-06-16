@@ -52,7 +52,7 @@ We are in the process of figuring out the best way to break up the process in ac
 4. **Functional Design** (results in Blueprint)
 5. **Technical Design** (results in Technical Design Document)
 6. **Scaffolding** (results in Specification and Test Files)
-6. **Prototyping** (results in a Prototype)
+6. **Implementation** (results in Prototype(s))
 7. **Implementation** (results in Alpha Test)
 8. **Aesthetics & Design** (results in Beta Test)
 9. **External Testing**  (results in production version)
