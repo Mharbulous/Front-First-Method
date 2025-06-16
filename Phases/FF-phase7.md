@@ -1,34 +1,39 @@
+
 ```mermaid
 graph TD
-    Phase6["Phase 6: Backend Development & Integration"] --> Phase7_1
-
-    subgraph Phase7 ["Phase 7"]
+    D_Spec["Phase 5: Backend Specifications"] --> D_Loop_Start["Implement Features and Functionality"]
+    
+    subgraph Phase6 ["Phase 6"]
+        D_Loop_Start --> Phase6_1["Phase 6.1: AI-Assisted: Generate Boilerplate Code for Feature"]
+        Phase6_1 --> Phase6_1_Val{"Human Review Boilerplate?"}
+        Phase6_1_Val -->|Needs Revision| Phase6_1
+        Phase6_1_Val -->|Approved| Phase6_2["Phase 6.2: AI-Assisted: Implement Core Business Logic for Feature"]
+        Phase6_2 --> Phase6_2_Val{"Human Review Business Logic?"}
+        Phase6_2_Val -->|Needs Revision| Phase6_2
+        Phase6_2_Val -->|Approved| Phase6_3["Phase 6.3: AI-Assisted: Integrate Feature with Front-End"]
+        Phase6_3 --> D_Loop_Check{"Add more Features?"}
+        D_Loop_Check -->|Yes| D_Loop_Start
+        D_Loop_Check -->|No| ReadyForPhase7["Ready for Phase 7"]
         Version["v1.4 (June 1, 2025)"]
         classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
         class Version version
-        Phase7_1["Phase 7.1: AI-Assisted: Generate Unit/Integration Tests"] --> Phase7_2{"Phase 7.2: Test Results & Feedback Review: Refinement Needed?"} 
-        Phase7_2 --> |Yes|RefineDecision{"User determines scope of refinement"}
-        
     end
 
-Phase7_2 -->  |No further refinement needed|AllGood["Application complete!"]       
-RefineDecision -->|Requirements Issues| Back2Phase1["Back to Phase 1"]
-RefineDecision -->|Fundamental Structure Issues| Back2Phase2["Back to Phase 2"]
-RefineDecision -->|Visual/UX Issues| Back2Phase3["Back to Phase 3"]
-RefineDecision -->|Interface Issues| Back2Phase4["Back to Phase 4"]
-RefineDecision -->|Backend Specification Issues| Back2Phase5["Back to Phase 5"]
-RefineDecision -->|Implementation Issues| Back2Phase6["Back to Phase 6"]
-
+ReadyForPhase7 --> Phase7["Phase 7: Continuous Iteration, Testing & Refinement"]
 ```
 
-# Phase 7:  Continuous Iteration, Testing & Refinement
 
-### Phase 7.1: Implement Comprehensive Testing (Unit, Integration, End-to-End for UI-Backend flow)
-*   For all AI-generated backend code, assist in generating unit tests that cover individual functions and logic.
-*   Define and help set up integration tests to verify interactions between different backend modules/services.
-*   Outline end-to-end test scenarios that trace complete user flows from the (now connected) front-end through the backend and back to the UI. AI can be instrumental in devising test scripts.
+### Phase 6.1: Generate Backend Boilerplate Code (e.g., controllers, models, basic CRUD)
+*   For an approved module/feature: Generate the boilerplate code for data models/schemas based on Step 5.1.
+*   Generate controller/router files with empty methods for the API endpoints defined in Step 5.2.
+*   Implement basic CRUD (Create, Read, Update, Delete) operations for entities where applicable, ensuring data validation based on front-end implied constraints.
+*   Present generated code for review.
 
-### Phase 7.2: Refine based on test results and further feedback
-*   Analyze test results. If failures occur, assist in debugging by identifying potential error sources in the AI-generated code, leveraging AI's strengths in error analysis and explanation.
-*   Incorporate any further user/stakeholder feedback that arises from testing the integrated application.
-*   Repeat development and testing steps as needed until the feature/application meets all requirements.
+### Phase 6.2: Implement Core Business Logic for each feature, guided by front-end context
+*   Flesh out the core business logic within the stubs defined in Step 5.3, ensuring it correctly processes inputs from the front-end (via APIs) and produces the expected outputs/state changes.
+*   Pay close attention to any specific business rules or constraints discussed during requirements gathering or implied by the front-end design. AI has shown effectiveness in handling data processing and merging logic.
+*   Generate this code iteratively, perhaps function by function, for human review and validation.
+
+### Phase 6.3: Iteratively Connect Front-End Components to Live Backend Endpoints
+*   Once a backend API endpoint is implemented and validated, guide the human developer (or assist if capable) in updating the front-end prototype to replace mock data/static interactions with live calls to this endpoint.
+*   Test this specific integration thoroughly. This is an iterative process: implement a backend piece, connect front-end, test, repeat.

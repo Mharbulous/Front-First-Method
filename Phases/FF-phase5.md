@@ -1,32 +1,15 @@
-```mermaid
-graph TD
+# Phase 4.5: Technical Design
 
-    
-        Phase3["Phase 3: Interactive Mockup"] --> Phase4["Phase 4: Backend Specifications"]
-        Phase4 --> Phase5_1        
-    
+This phase focuses on creating comprehensive technical design documents and diagrams that explain the core logic and architecture of the application.
 
-    subgraph Phase5["Phase 5"]
-        
-        Phase5_1["5.1: Define Data Models/Schemas"]    
-        Phase5_1 --> Phase5_1_Val{"Human Validate Data Model?"}
-        Phase5_1_Val -->|Iterate| Phase5_1
-        Phase5_1_Val -->|Approved| Phase5_2["5.2: Generate API Endpoint Specs"]
-        Phase5_2 --> Phase5_2_Val{"Human Validate API Specs?"}
-        Phase5_2_Val -->|Iterate| Phase5_2
-        Phase5_2_Val -->|Approved| Phase5_3["5.3: Generate Initial Backend Structure/Stubs"]
-        Phase5_3 --> Phase5_3_Val{"Human Validate Backend Structure/Stubs?"}
-        Phase5_3_Val -->|Iterate| Phase5_3
-        Phase5_3_Val -->|Approved| BackendSpecsFinalized["Backend Specs Finalized"]
-        Version["v1.7 (June 3, 2025)"]
-        classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px
-        class Version version
-    end
- 
+## Objectives:
+- Develop detailed technical specifications for backend components.
+- Create architectural diagrams (e.g., Mermaid diagrams) illustrating data flows, system interactions, and module structures.
+- Define API contracts and data models based on the validated front-end.
+- Ensure alignment between technical design and UI/UX specifications.
 
-
-BackendSpecsFinalized --> Phase6["Phase 6: Backend Development"]
-```
-
-
-
+## Deliverables:
+- Technical Design Document (TDD)
+- System Architecture Diagrams
+- API Specifications
+- Database Schema (if applicable)
