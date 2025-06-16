@@ -12,7 +12,7 @@ graph TD
     Phase5 -.- |how?|TechDesign["Technical Design Document"]
     Phase5 --> Phase6["Phase 6: Scaffolding"]
     Phase6 -.- |guardrails|Specs["Test Files"]
-    Phase6 --> Phase7["Phase 7: Prototype"]
+    Phase6 --> Phase7["Phase 7: Implementation"]
     Phase7 -.- Prototype["Prototype"]
     Phase7 --> Phase8["Phase 8: Aesthetics & Design"]
     Phase8 -.- Alpha["Alpha Test"]
