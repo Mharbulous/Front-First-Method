@@ -9,7 +9,7 @@ graph TD
     Phase3 --> Phase4["Phase 4: Functional Design"]
     Phase4 -.- |what?|Blueprint["Blueprint"]
     Phase4 --> Phase5["Phase 5: Technical Design"]
-    Phase5 -.- |how?|TechDesign["Technical Design Document (the how)"]
+    Phase5 -.- |how?|TechDesign["Technical Design Document"]
     Phase5 --> Phase6["Phase 6: Scaffolding"]
     Phase6 -.- Specs["Specification Files (a.k.a. test files)"]
     Phase6 --> Phase7["Phase 7: Prototype"]
