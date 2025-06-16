@@ -1,5 +1,6 @@
 # FRONT FIRST METHOD
 **Version:       1.9**
+
 **Last updated:  June 16, 2025**
 
 This front first method is a structured process for collaborative AI assisted coding.
