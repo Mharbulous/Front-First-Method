@@ -20,7 +20,7 @@ graph TD
     Phase9 -.- Beta["Beta Test"]
     Phase9 --> Phase10["Phase 10: Production Release"]
 
-    VersionInfo["v1.8 (Jun 14, 2025)"]
+    VersionInfo["v1.10 (Jun 16, 2025)"]
     classDef version fill:#f9f9f9,stroke:#ccc,font-size:10px;
     class VersionInfo version
 ```
