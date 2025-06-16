@@ -11,7 +11,9 @@ This front first method is a structured process for collaborative AI assisted co
 
 Build the front end first and use the front end as the primary source of truth for defining backend requirements. I.e., the validated UI/UX becomes a specification that drives all subsequent technical decisions.
 
-### 2. Function before Frills.**  Sometimes style elements express functional intent, but sometimes style elements are frills chosen purely for aesthetic appeal.  Because the front end is being used as a tool for AI - human communcation, it is vital that we distinguish style elements that indicate functional intent from frills that are added for aesthetic appeal.  To avoid cluttering the context windows with frills that could be misinterpreted as indicating something that was never intended, styles that communicate functional intent should be separated from frills by storing their respective .css files in the following folder structures:
+### 2. Function before Frills.
+
+Sometimes style elements express functional intent, but sometimes style elements are frills chosen purely for aesthetic appeal.  Because the front end is being used as a tool for AI - human communcation, it is vital that we distinguish style elements that indicate functional intent from frills that are added for aesthetic appeal.  To avoid cluttering the context windows with frills that could be misinterpreted as indicating something that was never intended, styles that communicate functional intent should be separated from frills by storing their respective .css files in the following folder structures:
 
 \src\styles\frills\
 \src\styles\indicators\
