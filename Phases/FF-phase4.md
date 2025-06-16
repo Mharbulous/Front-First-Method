@@ -2,9 +2,9 @@
 ```mermaid
 graph TD
     
-B1["Phase 3: Wireframe"]  --> B2["Engineering"] 
+B1["Phase 4: Mockup"]  --> B2["Technical Design"] 
 
-    subgraph Phase4["Phase 4"]
+    subgraph Phase4["Phase 5"]
         B2 --> B3_Val{"User Approval of Specifications?"}
         B3_Val -->|Needs Iteration| B2
         
@@ -14,7 +14,7 @@ B1["Phase 3: Wireframe"]  --> B2["Engineering"]
         
     end
 
-B3_Val -->|Approved| Phase5["Phase 5: Implementation"]
+B3_Val -->|Approved| Phase5["Phase 6: Implementation"]
 
 
 ```
