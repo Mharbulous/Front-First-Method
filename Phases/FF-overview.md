@@ -2,21 +2,24 @@
 graph TD
     
     Phase1["Phase 1: Research & Planning"] -.- PRD["PRD"]
-    Phase1 --> Phase2["Phase 2: Layout & Navigation"]
-    Phase2 -.- Wireframe["Wireframe"]
-    Phase2 --> Phase3["Phase 3: User Interface"]
-    Phase3 -.- Mockup["Mockup"]
-    Phase3 --> Phase4["Phase 4: Engineering"]
-    Phase4 -.- Specs["Backend Specifications"]
-    Phase4 --> Phase5["Phase 5: Prototype"]
-    Phase5 -.- Prototype["Prototype"]
-    Phase5 --> Phase6["Phase 6: Aesthetics & Design"]    
-    
-    Phase6 -.- Alpha["Alpha Test"]
+    Phase1 --> Phase2["Phase 2: Content & Navigation"]
+    Phase2 -.- Sitemap["Sitemap"]
 
-    Phase6 --> Phase7["Phase 7: User Testing"]    
-    Phase7 -.- Beta["Beta Test"]  
-    Phase7 --> Production["8- Production Release"]
+    Phase3 --> Phase2["Phase 2: Layout"]
+    Phase3 -.- Wireframe["Wireframe"]
+    Phase3 --> Phase4["Phase 4: User Interface"]
+    Phase4 -.- Mockup["Mockup"]
+    Phase4 --> Phase5["Phase 5: Engineering"]
+    Phase5 -.- Specs["Backend Specifications"]
+    Phase5 --> Phase6["Phase 6: Prototype"]
+    Phase6 -.- Prototype["Prototype"]
+    Phase6 --> Phase7["Phase 7: Aesthetics & Design"]    
+    
+    Phase7 -.- Alpha["Alpha Test"]
+
+    Phase7 --> Phase8["Phase 8: User Testing"]    
+    Phase8 -.- Beta["Beta Test"]  
+    Phase8 --> Production["8- Production Release"]
 
     
     
