@@ -46,15 +46,14 @@ This creates a sliding window where only the current phase and the immediately p
 
 We are in the process of figuring out the best way to break up the process in accordance with the above tenets.  The following list is the currently planned sequence of phases:  
 
-1. **Research & Planning** (results in PRD)
-2. **Content & Navigation** (results in Sitemap)
-3. **Interface & Layout** (results in Wireframe)
-4. **Functional Design** (results in Blueprint)
-5. **Technical Design** (results in Technical Design Document)
-6. **Scaffolding** (results in Specification and Test Files)
-6. **Implementation** (results in Prototype(s))
-7. **Implementation** (results in Alpha Test)
-8. **Aesthetics & Design** (results in Beta Test)
-9. **External Testing**  (results in production version)
-10. **Production Release**
+1. **Research & Planning** (PRD)
+2. **Content & Navigation** (Sitemap)
+3. **Interface & Layout** (Wireframe)
+4. **Functional Design** (Blueprint)
+5. **Technical Design** (Technical Design Document)
+6. **Scaffolding** (Test Files & Specifications)
+6. **Implementation** (Prototype(s))
+7. **Internal Testing** (Alpha version)
+9. **External Testing**  (Beta version)
+10. **Release** (Production version)
 
