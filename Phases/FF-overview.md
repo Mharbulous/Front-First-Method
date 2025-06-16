@@ -11,7 +11,7 @@ graph TD
     Phase4 --> Phase5["Phase 5: Technical Design"]
     Phase5 -.- |how?|TechDesign["Technical Design Document"]
     Phase5 --> Phase6["Phase 6: Scaffolding"]
-    Phase6 -.- Specs["Specification Files (a.k.a. test files)"]
+    Phase6 -.- |guardrails|Specs["Test Files"]
     Phase6 --> Phase7["Phase 7: Prototype"]
     Phase7 -.- Prototype["Prototype"]
     Phase7 --> Phase8["Phase 8: Aesthetics & Design"]
