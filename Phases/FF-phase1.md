@@ -15,6 +15,21 @@ graph TD
 Phase1_6 --> Phase2["Phase 2: Layout & Navigation"]
 ```
 
+
+graph TD
+
+    subgraph Phase1["Phase 1: Discovery & Planning"]
+        Phase1_0["Phase 1.0: User & Market Research"] --> Phase1_1["Phase 1.1: Define Goals & Requirements"]
+        Phase1_1 --> Phase1_2["Phase 1.2: Create Journey Maps"]
+        Phase1_2 --> Phase1_3["Phase 1.3: Map Content & Navigation"]
+        Phase1_3 --> Phase1_4["Phase 1.4: Create Low-Fidelity Wireframes"]
+        Phase1_4 -- "User Feedback & Validation" --> Phase1_2
+        Phase1_4 --> Phase1_5["Phase 1.5: Identify Technical Constraints & Tech Stack"]
+        Phase1_5 --> Phase1_6["Phase 1.6: Draft & Finalize PRD"]
+    end
+
+    Phase1_6 --> Phase2["Phase 2: Design & Development"]
+
 ### Step 1.1: Elicit and Clarify UI/UX Requirements & User Flows
 
 #### Critical Requirements Gathering:
