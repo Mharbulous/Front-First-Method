@@ -10,9 +10,14 @@ We are currently working on how best to break up the process into phases based o
 
 ## Key Tenets
 
-### 1. Front-End First
+### 1. Frontend First
 
 Build the front end first and use the front end as the primary source of truth for defining backend requirements. I.e., the validated UI/UX becomes a specification that drives all subsequent technical decisions.
+
+**Function not Frills.**  Sometimes style elements express functional intent, but sometimes style elements are frills chosen purely for aesthetic appeal.  Because the front end is being used as a tool for AI - human communcation, it is vital that we distinguish style elements that indicate functional intent from frills that are added for aesthetic appeal.  To avoid cluttering the context windows with frills that could be misinterpreted as indicating something that was never intended, styles that communicate functional intent should be separated from frills by storing their respective .css files in the following folder structures:
+
+\src\styles\frills\
+\src\styles\indicators\
 
 
 ### 2. Sliding Phase States
