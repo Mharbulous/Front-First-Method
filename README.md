@@ -18,8 +18,7 @@ Build the front end first and use the front end as the primary source of truth f
 
 ### 2. Test-Driven Development
 
-Use Gherkin sytnax to define acceptance criteria (Scenario: Given, when, then).
-Convert this acceptance criteria into test files (a.k.a. spec files) for a tool like vitest.
+Use Gherkin sytnax to define acceptance criteria (Scenario: Given, when, then).  When possible, convert acceptance criteria into test files (a.k.a. spec files) for a tool like vitest.  Do this before implementing functionality.
 
 
 ### 3. Sliding Phase States
