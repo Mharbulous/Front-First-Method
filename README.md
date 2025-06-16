@@ -7,7 +7,7 @@ This front first method is a structured process for collaborative AI assisted co
 
 ## Key Tenets
 
-### 1. Frontend First
+### 1. Front End First
 
 Build the front end first and use the front end as the primary source of truth for defining backend requirements. I.e., the validated UI/UX becomes a specification that drives all subsequent technical decisions.
 
