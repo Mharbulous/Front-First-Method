@@ -1,329 +1,257 @@
 # Product Requirements Document (PRD)
-
-## [Product Name]
+## [Product Name] v[Version]
 
 **Version:** [X.Y.Z]  
 **Last Updated:** [Date]  
-**Phase:** [Phase 1 - Research & Planning]  
-**Status:** [Creating/Revising/Locked]
+**Current Phase:** [Phase X - Phase Name]
 
 ---
 
-## 1. Introduction
+# PHASE 1: RESEARCH & PLANNING
 
-### 1.1 Purpose
+*This section is completed during Phase 1 and serves as the foundation for all subsequent phases.*
 
-[Describe the purpose of this PRD. What is being built and why? This should be a clear, concise statement of the document's objective and the product's primary goal.]
+## 1. Product Vision & Goals
 
-### 1.2 Scope
+### 1.1 Product Vision
+[One clear sentence describing what this product does and why it matters to users]
 
-[Define what is included and excluded from this project. Be specific about boundaries, features, platforms, and jurisdictions if applicable.]
+### 1.2 Target Users
+[Primary user personas - who will actually use this product]
 
-### 1.3 Target Audience
+### 1.3 Core Value Proposition
+[What specific problem does this solve for users? What value does it deliver?]
 
-[Identify the primary and secondary users of this product. Include user personas, roles, and any specific demographic or professional characteristics.]
+### 1.4 Success Metrics
+[How will we measure if this product is successful?]
 
----
+## 2. User Research & Context
 
-## 2. Overall Vision & Goals
-
-### 2.1 Product Vision
-
-[A high-level statement describing the long-term vision for this product. What problem does it solve? What value does it provide?]
-
-### 2.2 Key Business Goals
-
-[List the primary business objectives this product will achieve. Use bullet points and be specific about success metrics where possible.]
-
-- **Goal 1:** [Description with measurable outcome]
-- **Goal 2:** [Description with measurable outcome]
-- **Goal 3:** [Description with measurable outcome]
-
-### 2.3 Success Metrics
-
-[Define how success will be measured. Include KPIs, user adoption metrics, performance benchmarks, etc.]
-
----
-
-## 3. User Research & Context
-
-### 3.1 User Personas
-
-[Describe the primary user personas, their needs, pain points, and goals.]
+### 2.1 User Personas
 
 #### Primary Persona: [Name/Role]
-- **Background:** [Professional context, experience level]
+- **Context:** [When/where/why they need this product]
 - **Goals:** [What they're trying to accomplish]
-- **Pain Points:** [Current challenges and frustrations]
-- **Needs:** [What they require from this product]
+- **Current Pain Points:** [What's frustrating about their current process]
+- **Success Criteria:** [How they'll know the product is working for them]
 
-### 3.2 User Journey Maps
+### 2.2 User Journey Maps
 
-[Outline the key user journeys and workflows. This should align with the journey maps created in Phase 1.2.]
+#### Journey: [Primary User Flow Name]
+**Trigger:** [What causes the user to start this journey]
 
-#### Journey 1: [Journey Name]
-1. **Entry Point:** [How users arrive at this workflow]
-2. **Key Steps:** [Major actions and decisions]
-3. **Exit Point:** [How the journey concludes]
-4. **Pain Points:** [Friction areas to address]
+**Steps:**
+1. [User action/need] → [Expected system response]
+2. [User action/need] → [Expected system response]  
+3. [User action/need] → [Expected system response]
 
----
+**Current Pain Points:** [Friction in existing solutions]
+**Success Outcome:** [What constitutes a successful journey completion]
 
-## 4. Functional Requirements
+## 3. Functional Requirements
 
-[This section details specific features and functionalities, organized by category. Use user story format for clarity.]
+### 3.1 Core User Stories
 
-### 4.1 Core Functionality
+#### 3.1.1 [Primary Function Category]
+- **REQ-1:** As a [user type], I need to [specific action] so that [business outcome].
+- **REQ-2:** As a [user type], I need to [specific action] so that [business outcome].
 
-#### 4.1.1 [Feature Category]
-- **UC-1:** As a [user type], I want to [action] so that [benefit/outcome].
-- **UC-2:** As a [user type], I want to [action] so that [benefit/outcome].
+#### 3.1.2 [Secondary Function Category]  
+- **REQ-3:** As a [user type], I need to [specific action] so that [business outcome].
+- **REQ-4:** As a [user type], I need to [specific action] so that [business outcome].
 
-#### 4.1.2 [Feature Category]
-- **UC-3:** As a [user type], I want to [action] so that [benefit/outcome].
-- **UC-4:** As a [user type], I want to [action] so that [benefit/outcome].
+### 3.2 Business Rules & Logic
+- **RULE-1:** [Specific business rule that affects user interaction]
+- **RULE-2:** [Specific business rule that affects user interaction]
 
-### 4.2 User Interface & Interaction
-
-#### 4.2.1 Navigation & Layout
-- **UI-1:** As a user, I want [interface requirement] so that [usability benefit].
-- **UI-2:** As a user, I want [interface requirement] so that [usability benefit].
-
-#### 4.2.2 Data Input & Management
-- **UI-3:** As a user, I want [data interaction requirement] so that [efficiency benefit].
-- **UI-4:** As a user, I want [data interaction requirement] so that [efficiency benefit].
-
-### 4.3 [Additional Categories as needed]
-
-[Continue organizing functional requirements by logical groupings]
+### 3.3 Platform & Technical Constraints
+- **Platform:** [Web app, mobile app, desktop, etc.]
+- **Browser Support:** [Specific compatibility requirements]
+- **Performance:** [Response time and scale requirements]
+- **Integrations:** [Must work with existing systems X, Y, Z]
 
 ---
 
-## 5. Technical Requirements
+# PHASE 2: CONTENT & NAVIGATION
 
-### 5.1 System Architecture
+*This section is refined during Phase 2 based on content organization and navigation mapping.*
 
-[Define the high-level technical approach and architecture decisions.]
+## 4. Content Organization & Information Architecture
 
-#### 5.1.1 Frontend Requirements
-- **Framework:** [Specify technology stack]
-- **Compatibility:** [Browser/device requirements]
-- **Performance:** [Load time, responsiveness requirements]
+### 4.1 Content Hierarchy
+**Updated:** [Date] **Phase:** 2
 
-#### 5.1.2 Backend Requirements
-- **Architecture:** [Describe backend approach - decoupled, microservices, etc.]
-- **Database:** [Data storage requirements]
-- **APIs:** [External integrations needed]
+**Primary Content Areas:**
+- [Content Area 1]: [Purpose, scope, and relationship to user goals]
+- [Content Area 2]: [Purpose, scope, and relationship to user goals]
+- [Content Area 3]: [Purpose, scope, and relationship to user goals]
 
-### 5.2 Data Requirements
+**Content Relationships:**
+[How different content areas connect and support user journeys]
 
-[Specify data models, sources, and management needs.]
+### 4.2 Site Navigation Structure
+**Updated:** [Date] **Phase:** 2
 
-#### 5.2.1 Data Sources
-- **Primary Data:** [Main data requirements and sources]
-- **External Data:** [Third-party data needs]
-- **Data Updates:** [How data will be maintained]
+**Primary Navigation:** [Main navigation elements and hierarchy]
+**Secondary Navigation:** [Sub-navigation, breadcrumbs, contextual navigation]
+**User Flow Navigation:** [How users move through key workflows]
 
-#### 5.2.2 Data Models
-[Define key entities and their relationships]
+### 4.3 Content Requirements
+**Updated:** [Date] **Phase:** 2
 
-### 5.3 Technical Constraints
-
-[List any technical limitations, dependencies, or requirements.]
-
-- **Constraint 1:** [Description and impact]
-- **Constraint 2:** [Description and impact]
+[Specific content that needs to be created, managed, or integrated]
 
 ---
 
-## 6. Content Organization & Navigation
+# PHASE 3: INTERFACE & LAYOUT
 
-### 6.1 Information Architecture
+*This section is populated during Phase 3 based on wireframe creation and validation.*
 
-[Define how content will be organized and structured. This should align with Phase 1.3 outputs.]
+## 5. Interface & Layout Requirements
 
-#### 6.1.1 Content Hierarchy
-- **Level 1:** [Top-level content areas]
-- **Level 2:** [Secondary content groupings]
-- **Level 3:** [Detailed content organization]
+### 5.1 Wireframe Validation Results
+**Updated:** [Date] **Phase:** 3
 
-#### 6.1.2 Content Types
-[Describe different types of content and their characteristics]
+[Key findings from wireframe review and user validation]
 
-### 6.2 Site Navigation
+### 5.2 Layout Principles
+**Updated:** [Date] **Phase:** 3
 
-[Define navigation structure and patterns. This should align with Phase 1.4 outputs.]
+**Screen Layout:** [How information should be organized on screen]
+**Component Hierarchy:** [Priority and placement of UI elements]
+**Responsive Behavior:** [How design adapts to different screens]
 
-#### 6.2.1 Primary Navigation
-[Main navigation structure and labels]
+### 5.3 User Interface Behavior
+**Updated:** [Date] **Phase:** 3
 
-#### 6.2.2 Secondary Navigation
-[Sub-navigation, breadcrumbs, and contextual navigation]
+#### 5.3.1 Input & Interaction Patterns
+- **UI-1:** When [user action], the system must [immediate response] to [enable user success].
+- **UI-2:** When [user action], the system must [immediate response] to [enable user success].
 
----
-
-## 7. UI/UX Requirements
-
-### 7.1 Design Principles
-
-[Establish design guidelines and principles that will guide the visual design.]
-
-- **Principle 1:** [Design approach and rationale]
-- **Principle 2:** [Design approach and rationale]
-
-### 7.2 Visual Design Requirements
-
-#### 7.2.1 Layout & Structure
-- **Page Layout:** [Describe overall page structure]
-- **Grid System:** [Define layout grid if applicable]
-- **Responsive Behavior:** [How design adapts to different screens]
-
-#### 7.2.2 Typography & Color
-- **Font Family:** [Primary and secondary typefaces]
-- **Font Sizes:** [Size hierarchy and usage]
-- **Color Palette:** [Primary, secondary, and accent colors]
-
-#### 7.2.3 Component Styling
-[Define styling for key UI components]
-
-- **Buttons:** [Style specifications]
-- **Forms:** [Input field styling]
-- **Tables:** [Table design requirements]
-- **Navigation:** [Navigation element styling]
-
-### 7.3 Interaction Design
-
-[Define how users will interact with the interface]
-
-#### 7.3.1 User Interactions
-- **Click/Tap Behavior:** [Response to user actions]
-- **Form Interactions:** [Input validation and feedback]
-- **Dynamic Updates:** [Real-time interface changes]
-
-#### 7.3.2 Feedback & States
-- **Loading States:** [How system communicates processing]
-- **Error States:** [Error handling and messaging]
-- **Success States:** [Confirmation and success feedback]
+#### 5.3.2 Feedback & System Communication  
+- **UI-3:** The system must clearly communicate [status/result] when [condition] occurs.
+- **UI-4:** Users must be able to [critical action] at any point during [workflow].
 
 ---
 
-## 8. Non-Functional Requirements
+# PHASE 4: FUNCTIONAL DESIGN
 
-### 8.1 Performance
+*This section is developed during Phase 4 based on the validated mockup becoming the source of truth.*
 
-- **Load Time:** [Maximum acceptable load times]
-- **Response Time:** [Interactive response requirements]
-- **Throughput:** [Concurrent user capacity]
+## 6. Functional Design Specifications
 
-### 8.2 Accessibility
+### 6.1 Validated Mockup Analysis
+**Updated:** [Date] **Phase:** 4
 
-- **Standards:** [WCAG compliance level]
-- **Keyboard Navigation:** [Keyboard accessibility requirements]
-- **Screen Reader:** [Screen reader compatibility]
+[Analysis of the approved functional mockup and what it reveals about system requirements]
 
-### 8.3 Browser Compatibility
+### 6.2 Implied Data Requirements
+**Updated:** [Date] **Phase:** 4
 
-- **Supported Browsers:** [Minimum browser versions]
-- **Device Support:** [Desktop, tablet, mobile requirements]
+**Data Entities:** [What data objects are implied by the UI]
+**Data Relationships:** [How data objects relate to each other based on UI flows]
+**Data Validation:** [What validation rules are implied by form designs]
 
-### 8.4 Security
+### 6.3 System Interactions
+**Updated:** [Date] **Phase:** 4
 
-- **Data Protection:** [Data security requirements]
-- **User Authentication:** [Login and access control needs]
-- **Privacy:** [Privacy protection measures]
-
----
-
-## 9. Testing & Quality Assurance
-
-### 9.1 Testing Strategy
-
-[Define the overall approach to testing and quality assurance]
-
-#### 9.1.1 Test Types
-- **Unit Testing:** [Component-level testing requirements]
-- **Integration Testing:** [System integration testing needs]
-- **User Acceptance Testing:** [UAT criteria and process]
-
-### 9.2 Acceptance Criteria
-
-[Define specific, testable criteria that must be met for the product to be considered complete]
-
-#### Test Case 1: [Test Scenario Name]
-- **Given:** [Initial conditions]
-- **When:** [User action or trigger]
-- **Then:** [Expected outcome]
-- **Expected Result:** [Specific, measurable result]
-
-#### Test Case 2: [Test Scenario Name]
-- **Given:** [Initial conditions]
-- **When:** [User action or trigger]
-- **Then:** [Expected outcome]
-- **Expected Result:** [Specific, measurable result]
+**User Actions → System Responses:** [Mapping of UI interactions to required system behavior]
+**Integration Points:** [Where the UI suggests external system interactions]
 
 ---
 
-## 10. Project Constraints & Assumptions
+# PHASE 5: TECHNICAL DESIGN
 
-### 10.1 Timeline Constraints
+*This section is populated during Phase 5 based on technical design decisions.*
 
-- **Project Start:** [Start date]
-- **Key Milestones:** [Important deadlines]
-- **Launch Target:** [Target completion date]
+## 7. Technical Design Requirements
 
-### 10.2 Resource Constraints
+### 7.1 Architecture Decisions
+**Updated:** [Date] **Phase:** 5
 
-- **Team Size:** [Available team members and roles]
-- **Budget:** [Budget limitations if applicable]
-- **Technology:** [Available tools and platforms]
+[High-level technical architecture decisions that support the validated UI]
 
-### 10.3 Assumptions
+### 7.2 API Requirements
+**Updated:** [Date] **Phase:** 5
 
-[List key assumptions being made about users, technology, or business context]
+[API endpoints and data contracts required to support the front-end]
 
-- **Assumption 1:** [Description and impact if incorrect]
-- **Assumption 2:** [Description and impact if incorrect]
+### 7.3 Performance & Scalability
+**Updated:** [Date] **Phase:** 5
 
----
-
-## 11. Future Considerations
-
-### 11.1 Potential Enhancements
-
-[Features or improvements that may be considered in future versions]
-
-- **Enhancement 1:** [Description and potential value]
-- **Enhancement 2:** [Description and potential value]
-
-### 11.2 Scalability Considerations
-
-[How the product might need to evolve or scale]
+[Technical performance requirements derived from UI behavior expectations]
 
 ---
 
-## 12. Appendices
+# PHASE 6-10: IMPLEMENTATION & TESTING
 
-### Appendix A: Glossary
+*These sections are updated during development, testing, and release phases.*
 
-[Define key terms and acronyms used throughout the document]
+## 8. Implementation Notes
 
-### Appendix B: References
+### 8.1 Development Decisions
+**Updated:** [Date] **Phase:** [6-7]
 
-[List external documents, standards, or resources referenced]
+[Key implementation decisions and rationale]
 
-### Appendix C: Change Log
+### 8.2 Technical Debt & Compromises
+**Updated:** [Date] **Phase:** [6-7]
 
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| [X.Y.Z] | [Date] | [Description of changes] | [Name] |
+[Documented technical compromises and future improvement needs]
+
+## 9. Testing & Validation
+
+### 9.1 Acceptance Criteria
+**Updated:** [Date] **Phase:** [6-9]
+
+#### Test Scenario 1: [Primary User Flow]
+**Given** [initial conditions]
+**When** [user performs action]  
+**Then** [system should respond with]
+**Status:** [Pass/Fail/Not Tested]
+
+### 9.2 User Testing Results
+**Updated:** [Date] **Phase:** [8-9]
+
+[Results from alpha and beta testing phases]
+
+### 9.3 Performance Testing
+**Updated:** [Date] **Phase:** [8-9]
+
+[Performance test results and optimizations]
+
+## 10. Production & Release
+
+### 10.1 Launch Criteria
+**Updated:** [Date] **Phase:** 10
+
+[What must be true for the product to be considered ready for release]
+
+### 10.2 Post-Launch Monitoring
+**Updated:** [Date] **Phase:** 10
+
+[How product performance and user satisfaction will be monitored]
 
 ---
 
-**Document Review & Approval**
+# APPENDICES
 
-| Role | Name | Date | Signature |
-|------|------|------|-----------|
-| Product Owner | [Name] | [Date] | [Approval] |
-| Technical Lead | [Name] | [Date] | [Approval] |
-| UX Lead | [Name] | [Date] | [Approval] |
-| Stakeholder | [Name] | [Date] | [Approval] |
+## Appendix A: Change Log
+
+| Version | Date | Phase | Changes | Rationale |
+|---------|------|-------|---------|-----------|
+| [X.Y.Z] | [Date] | [Phase] | [Description] | [Why change was made] |
+
+## Appendix B: Stakeholder Decisions
+
+| Decision | Date | Phase | Stakeholder | Impact |
+|----------|------|-------|-------------|--------|
+| [Decision] | [Date] | [Phase] | [Who decided] | [What changed] |
+
+## Appendix C: User Research Data
+
+[Ongoing collection of user research, feedback, and insights]
+
+## Appendix D: Technical Research
+
+[Technical investigations, proof of concepts, and architecture explorations]
