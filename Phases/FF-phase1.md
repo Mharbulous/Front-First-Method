@@ -7,12 +7,12 @@ graph TD
         Phase1_4["Phase 1.4: Map Site Navigation"] --> Phase1_5
         Phase1_5["Phase 1.5: Identify Technical Constraints & Tech Stack"] --> Phase1_6
         Phase1_6["Phase 1.6: Draft PRD Document"]
-        
+        Version["v1.10 (June 16, 2025)"]    
         
     end
     
     Phase2["Phase 2: Layout & Navigation"]
-    Version["v1.10 (June 16, 2025)"]
+    
     
     Phase1_6 --> Phase2
     
