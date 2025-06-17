@@ -1,6 +1,6 @@
 # Product Requirements Document (PRD)
 
-## [Product Name] v[Version]
+## [Product Name]
 
 **Version:** [X.Y.Z]  
 **Last Updated:** [Date]  
