@@ -12,7 +12,7 @@ graph TD
     end
     
     Phase2["Phase 2: Layout & Navigation"]
-    Version["v1.4 (June 1, 2025)"]
+    Version["v1.10 (June 16, 2025)"]
     
     Phase1_6 --> Phase2
     
