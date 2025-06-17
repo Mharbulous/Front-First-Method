@@ -15,32 +15,6 @@ graph TD
 Phase1_6 --> Phase2["Phase 2: Layout & Navigation"]
 ```
 
-```mermaid
-graph TD
-    subgraph Phase 1 [Phase 1: Requirements & Specification]
-        direction LR
-        A["1.0: User & Market Research"] --> B["1.1: Define Goals & Requirements"]
-        B --> C["1.2: Create User Journey Maps"]
-        C --> D["1.3: Map Content Organization"]
-        D --> E["1.4: Map Site Navigation"]
-        E --> F["1.5: Draft & Finalize PRD"]
-    end
-
-    subgraph Phase 2 [Phase 2: UI/UX Design]
-        direction LR
-        G["2.1: Create Low-Fidelity Wireframes"] --> H["2.2: Create High-Fidelity Mockups"]
-        H -- "Visual Iteration" --> G
-        H --> I["2.3: Finalize Design Specification"]
-    end
-
-    subgraph Phase 3 [Phase 3: Development & Implementation]
-       J["3.1: Develop Application"]
-    end
-
-    F -- "PRD is the input for Design" --> G
-    I -- "Design Spec is the input for Dev" --> J
-```
-
 
 ### Step 1.1: Elicit and Clarify UI/UX Requirements & User Flows
 
